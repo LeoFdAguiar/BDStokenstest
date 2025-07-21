@@ -1,3 +1,5 @@
 Test exporting tokens from Figma using the Design Tokens Plugin by Lukas Oppperman 
 
 https://www.figma.com/community/plugin/888356646278934516/design-tokens
+
+first export attempt did not export primitive colors or semantic collections
