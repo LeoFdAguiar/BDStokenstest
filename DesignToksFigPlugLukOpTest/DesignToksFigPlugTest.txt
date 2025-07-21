@@ -2,4 +2,6 @@ Test exporting tokens from Figma using the Design Tokens Plugin by Lukas Oppperm
 
 https://www.figma.com/community/plugin/888356646278934516/design-tokens
 
-first export attempt did not export primitive colors or semantic collections
+- first export attempt did not export primitive colors or semantic collections
+- plugin seems to not gather data from variables table only from style and frames in canvas
+- need to read documentation more
