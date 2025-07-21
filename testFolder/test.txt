@@ -1,1 +1,4 @@
-testFolder
+Tokens in this testFolder were exported with the Export Variables to Github Repository Figma plugin.
+
+
+https://www.figma.com/community/plugin/1424007923397835239/export-variables-to-github-repository
