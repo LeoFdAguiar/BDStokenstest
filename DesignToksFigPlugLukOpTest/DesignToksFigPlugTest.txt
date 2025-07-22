@@ -5,3 +5,4 @@ https://www.figma.com/community/plugin/888356646278934516/design-tokens
 - first export attempt did not export primitive colors or semantic collections
 - plugin seems to not gather data from variables table only from style and frames in canvas
 - need to read documentation more
+- "not an ideal tool to use", stated by plugin creator, better setup is in medium article
