@@ -1,3 +1,5 @@
 These vars were generated with the Vars Sync Figma Plugin.
 
+This plugin creates a pull request with .less and .ts files.
+
 https://www.figma.com/community/plugin/1403317323142953789/vars-sync-plugin
