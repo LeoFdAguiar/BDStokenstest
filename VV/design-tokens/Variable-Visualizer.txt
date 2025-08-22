@@ -1,3 +1,0 @@
-token json generated with Figma plugin called Variable Visualizer
-
-https://www.figma.com/community/plugin/1457362132545070106/variable-visualizer-design-system-token-variables-management
