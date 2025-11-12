@@ -1,1929 +1,4 @@
 {
-  "_BILDColorPrimitive/Value": {
-    "BILD": {
-      "reds": {
-        "BILDRed": {
-          "value": "#dd0000",
-          "type": "color"
-        },
-        "BILDRed035": {
-          "value": "#af0002",
-          "type": "color"
-        },
-        "BILDRed053": {
-          "value": "#f52d2d",
-          "type": "color"
-        }
-      },
-      "grays": {
-        "BILD015": {
-          "value": "#232629",
-          "type": "color"
-        },
-        "BILD085": {
-          "value": "#ced4da",
-          "type": "color"
-        },
-        "BILD035": {
-          "value": "#4b525a",
-          "type": "color"
-        },
-        "BILD025": {
-          "value": "#343c41",
-          "type": "color"
-        },
-        "BILD060": {
-          "value": "#8c9196",
-          "type": "color"
-        },
-        "BILD096": {
-          "value": "#f2f4f5",
-          "type": "color"
-        },
-        "BILD093": {
-          "value": "#e9ecef",
-          "type": "color"
-        },
-        "BILD085-50": {
-          "value": "#ced4da80",
-          "type": "color",
-          "description": "The 50% opacity on this color makes it equivalent to BILD093."
-        },
-        "BILD073": {
-          "value": "#aeb4b9",
-          "type": "color"
-        },
-        "BILD045": {
-          "value": "#666b70",
-          "type": "color"
-        },
-        "BILD010": {
-          "value": "#1c1c1c",
-          "type": "color"
-        },
-        "BILD020": {
-          "value": "#2c3138",
-          "type": "color"
-        }
-      },
-      "neutrals": {
-        "BILD100": {
-          "value": "#ffffff",
-          "type": "color"
-        }
-      },
-      "oranges": {
-        "BILDOrange": {
-          "value": "#fd8227",
-          "type": "color"
-        }
-      },
-      "greens": {
-        "BILDGreen070": {
-          "value": "#00c373",
-          "type": "color"
-        },
-        "BILDGreen063": {
-          "value": "#00af67",
-          "type": "color"
-        },
-        "BILDGreen093": {
-          "value": "#cef4e4",
-          "type": "color"
-        },
-        "BILDGreen093-50": {
-          "value": "#cef4e480",
-          "type": "color"
-        },
-        "BILDGreen056-50": {
-          "value": "#009b5a80",
-          "type": "color"
-        },
-        "BILDGreen040": {
-          "value": "#006f00",
-          "type": "color",
-          "description": "This value of green was found in a text field's text color."
-        }
-      },
-      "yellows": {
-        "BILDYellow": {
-          "value": "#ffbf00",
-          "type": "color"
-        }
-      },
-      "purples": {
-        "BILDBerry": {
-          "value": "#551937",
-          "type": "color"
-        }
-      },
-      "scrims": {
-        "scrim-70": {
-          "value": "#000000b3",
-          "type": "color",
-          "description": "This is used as a background overlay for most high priority alert messages that block the user from proceeding, forcing the user to take an action."
-        }
-      },
-      "shadows": {
-        "shadow-20": {
-          "value": "#00000033",
-          "type": "color"
-        },
-        "shadow-10": {
-          "value": "#0000001a",
-          "type": "color"
-        },
-        "shadow-60": {
-          "value": "#00000099",
-          "type": "color",
-          "description": "Used on elevation effects."
-        },
-        "shadow-30": {
-          "value": "#0000004d",
-          "type": "color"
-        }
-      },
-      "blues": {
-        "BILDBlue": {
-          "value": "#00b1ff",
-          "type": "color",
-          "description": "This Blue color was taken from the Weather 2024 project."
-        }
-      }
-    },
-    "Partner": {
-      "Stylebook": {
-        "stylebookCore": {
-          "value": "#ffccff",
-          "type": "color"
-        }
-      },
-      "Fitbook": {
-        "fitbookCore": {
-          "value": "#ff97b7",
-          "type": "color"
-        }
-      },
-      "Petbook": {
-        "petbookCore": {
-          "value": "#b9db91",
-          "type": "color"
-        }
-      },
-      "MyHome": {
-        "myhomeCore": {
-          "value": "#66cccc",
-          "type": "color"
-        }
-      },
-      "Travelbook": {
-        "travelbookCore": {
-          "value": "#8ef0ed",
-          "type": "color"
-        }
-      },
-      "Techbook": {
-        "techbookCore": {
-          "value": "#93e4ff",
-          "type": "color"
-        }
-      },
-      "Kaufberater": {
-        "kaufberaterCore": {
-          "value": "#55476e",
-          "type": "color"
-        }
-      },
-      "Bz": {
-        "bzCore": {
-          "value": "#e3001b",
-          "type": "color"
-        }
-      },
-      "Aubi": {
-        "aubiCore": {
-          "value": "#f00000",
-          "type": "color"
-        }
-      },
-      "ComputerBILD": {
-        "cobiCore": {
-          "value": "#dc231c",
-          "type": "color"
-        }
-      }
-    },
-    "SportBILD": {
-      "spobiBlue025": {
-        "value": "#f7f9fd",
-        "type": "color"
-      },
-      "spobiBlue100": {
-        "value": "#bdcadb",
-        "type": "color"
-      },
-      "spobiBlue300": {
-        "value": "#174482",
-        "type": "color"
-      },
-      "spobiBlue500": {
-        "value": "#0a2750",
-        "type": "color"
-      },
-      "spobiBlue700": {
-        "value": "#081828",
-        "type": "color"
-      }
-    },
-    "TextLabels": {
-      "BILDRed": {
-        "value": "BILDRed",
-        "type": "text"
-      },
-      "BILD100": {
-        "value": "BILD100",
-        "type": "text"
-      },
-      "BILD096": {
-        "value": "BILD096",
-        "type": "text"
-      },
-      "BILD085": {
-        "value": "BILD085",
-        "type": "text"
-      },
-      "BILD060": {
-        "value": "BILD060",
-        "type": "text"
-      },
-      "BILD035": {
-        "value": "BILD035",
-        "type": "text"
-      },
-      "BILD025": {
-        "value": "BILD025",
-        "type": "text"
-      },
-      "BILD015": {
-        "value": "BILD015",
-        "type": "text"
-      },
-      "BILDOrange": {
-        "value": "BILDOrange",
-        "type": "text"
-      },
-      "BILDRed053": {
-        "value": "BILDRed053",
-        "type": "text"
-      },
-      "BILDRed035": {
-        "value": "BILDRed035",
-        "type": "text"
-      },
-      "BILDGreen093": {
-        "value": "BILDGreen093",
-        "type": "text"
-      },
-      "BILDGreen070": {
-        "value": "BILDGreen070",
-        "type": "text"
-      },
-      "BILDGreen063": {
-        "value": "BILDGreen063",
-        "type": "text"
-      },
-      "BILD093": {
-        "value": "BILD093",
-        "type": "text"
-      },
-      "BILDYellow": {
-        "value": "BILDYellow",
-        "type": "text"
-      },
-      "BILD073": {
-        "value": "BILD073",
-        "type": "text"
-      },
-      "BILD045": {
-        "value": "BILD045",
-        "type": "text"
-      }
-    }
-  },
-  "BILDColorSemantic/Light": {
-    "Semantic": {
-      "Text": {
-        "textColorAccentPrimaryConstant": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "textColorPrimary": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "textColorMuted": {
-          "value": "{BILD.grays.BILD045}",
-          "type": "color"
-        },
-        "textColorPrimaryInverse": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "textColorPrimaryConstant": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "textColorSuccessPrimary": {
-          "value": "{BILD.greens.BILDGreen040}",
-          "type": "color"
-        },
-        "textColorPrimaryInverseConstant": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "textColorSecondary": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "This is used on article image source mainly."
-        },
-        "textColorAttentionHigh": {
-          "value": "{Semantic.Attention.attentionColorHigh}",
-          "type": "color"
-        },
-        "textColorAccentPrimary": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "textColorAttentionMedium": {
-          "value": "{Semantic.Attention.attentionColorMedium}",
-          "type": "color"
-        }
-      },
-      "Surface": {
-        "surfaceColorPrimary": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "surfaceColorSecondary": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryInverse": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryConstantLight": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryConstantDark": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "surfaceColorQuartenary": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "surfaceColorSuccess": {
-          "value": "{BILD.greens.BILDGreen093}",
-          "type": "color"
-        },
-        "surfaceColorTertiary": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "surfaceColorTertiaryGradient": {
-          "value": "#e9ecef00",
-          "type": "color",
-          "description": "Used on skeletons."
-        },
-        "surfaceColorTertiaryInverse": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color",
-          "description": "This surface color was found on the warning message for logging in with unidentified user or password data."
-        },
-        "surfaceColorPrimaryGradient": {
-          "value": "#ffffff00",
-          "type": "color",
-          "description": "Used next to sliders buttons and slider container edges for fading out content."
-        },
-        "surfaceColorSecondaryGradient": {
-          "value": "#f2f4f500",
-          "type": "color"
-        }
-      },
-      "State": {
-        "colorSecondaryActive": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated."
-        },
-        "colorPrimaryActive": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "Use this token for most components that have a hover state. The word active in this design system is used interchangeably with the word hover and pressed. Since hover states do not exist on mobile devices the choice was made to use the word active for representing hover and pressed states."
-        },
-        "colorSecondaryDisabled": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "colorPrimaryDisabled": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "colorSecondaryActiveInverse": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated with the use of color."
-        },
-        "colorTertiaryActive": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated."
-        }
-      },
-      "Border": {
-        "borderColorMediumContrast": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "This is the most used color for separators across Bild products."
-        },
-        "borderColorLowContrast": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "borderColorHighContrast": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "borderColorLowContrastConstant": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "borderColorSuccess": {
-          "value": "{Semantic.Attention.attentionColorSuccess}",
-          "type": "color"
-        },
-        "borderColorWarning": {
-          "value": "{Semantic.Attention.attentionColorHigh}",
-          "type": "color"
-        },
-        "borderColorPrimaryDisabled": {
-          "value": "{Semantic.State.colorPrimaryDisabled}",
-          "type": "color"
-        },
-        "borderColorSecondaryDisabled": {
-          "value": "{Semantic.State.colorSecondaryDisabled}",
-          "type": "color"
-        }
-      },
-      "Icon": {
-        "iconColorDefault": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "iconColorInverse": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "Uses same as separator neutral tone color. Is lighter tone than iconColor in Dark mode."
-        },
-        "iconColorConstant": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "Uses same as separator neutral tone color. Is lighter tone than iconColor in Dark mode."
-        }
-      },
-      "Attention": {
-        "attentionColorHigh": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "This color variable is the same as Bild's core brand color. This color has been used in marketing content dedicated to subscriptions and in warning messages found in the subscription process. It can be used in other elements that need to grab the user's attention."
-        },
-        "accentColorPrimary": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "Bild's accent color is the same as its primary color. In some dark mode elements this color changes to white. This is often used on small elements such as accordion arrows that change color when they change state or hover states that use some red on them in light mode."
-        },
-        "attentionColorMedium": {
-          "value": "{BILD.oranges.BILDOrange}",
-          "type": "color",
-          "description": "This color variable is currently used in Bild's horizontally scrolling breaking news headline content. It can be used in other elements that need to grab the user's attention."
-        },
-        "attentionColorLow": {
-          "value": "{BILD.yellows.BILDYellow}",
-          "type": "color",
-          "description": "This color variable is currently used in marketing content dedicated to the BildPur subscription. It can be used in other elements that need to grab the user's attention."
-        },
-        "accentColorPrimaryConstant": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "Use this token when you don't want small accents to change color in dark mode. This is often used on small elements such as accordion arrows that change color when they change state or hover states that use some red on them in light mode."
-        },
-        "attentionColorSuccess": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color",
-          "description": "Fills and strokes use this for grabbing attention and communicating the sentiment of success."
-        }
-      }
-    },
-    "Component": {
-      "Subheader": {
-        "subheadersPrimary": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        }
-      },
-      "Kicker": {
-        "kickerTextOnWhite": {
-          "value": "{Semantic.Text.textColorAccentPrimaryConstant}",
-          "type": "color"
-        },
-        "kickerTextOnRed": {
-          "value": "{Semantic.Text.textColorPrimaryInverseConstant}",
-          "type": "color"
-        },
-        "kickerBgOnWhite": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "Partner": {
-          "kickerStylebookBg": {
-            "value": "{Partner.Stylebook.stylebookCore}",
-            "type": "color"
-          },
-          "kickerFitbookBg": {
-            "value": "{Partner.Fitbook.fitbookCore}",
-            "type": "color"
-          },
-          "kickerPetbookBg": {
-            "value": "{Partner.Petbook.petbookCore}",
-            "type": "color"
-          },
-          "kickerMyhomebookBg": {
-            "value": "{Partner.MyHome.myhomeCore}",
-            "type": "color"
-          },
-          "kickerTravelbookBg": {
-            "value": "{Partner.Travelbook.travelbookCore}",
-            "type": "color"
-          },
-          "kickerTechbookBg": {
-            "value": "{Partner.Techbook.techbookCore}",
-            "type": "color"
-          },
-          "kickerKaufberaterBg": {
-            "value": "{Partner.Kaufberater.kaufberaterCore}",
-            "type": "color"
-          },
-          "kickerCobiBg": {
-            "value": "{Partner.ComputerBILD.cobiCore}",
-            "type": "color"
-          },
-          "kickerAubiBg": {
-            "value": "{Partner.Aubi.aubiCore}",
-            "type": "color"
-          },
-          "kickerSpobiBg": {
-            "value": "{SportBILD.spobiBlue300}",
-            "type": "color"
-          },
-          "kickerBzBg": {
-            "value": "{Partner.Bz.bzCore}",
-            "type": "color"
-          }
-        }
-      },
-      "Heading": {
-        "HeadingPrimary": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        },
-        "HeadingWhiteConst": {
-          "value": "{Semantic.Text.textColorPrimaryInverseConstant}",
-          "type": "color"
-        }
-      },
-      "Breadcrumb": {
-        "breadcrumbTextColorIdle": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "breadcrumbTextColorHover": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        }
-      },
-      "LargeTitle": {
-        "largeTilteText": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        }
-      },
-      "BreakingNews": {
-        "breakingNewsTitleSurfaceColor": {
-          "value": "{Semantic.Attention.attentionColorMedium}",
-          "type": "color"
-        },
-        "breakingNewsSurfaceColor": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "breakingNewsTextContentColor": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "breakingNewsTitleTextColor": {
-          "value": "{BILD.grays.BILD010}",
-          "type": "color"
-        }
-      },
-      "Menu": {
-        "menuSurface": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        },
-        "menuScrolledSurfaceGradient": {
-          "value": "#fffffff2",
-          "type": "color",
-          "description": "Used on a thin part at the top of header in navigation menu."
-        }
-      },
-      "!MultitextLinks": {
-        "!multitextLinksBorderIdle": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBorderActive": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBgIdle": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBgActive": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksContainerBorder": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        }
-      },
-      "Label": {
-        "labelColorPrimary": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "This variable references Bild015 in light mode and Bild093 in dark mode."
-        },
-        "labelColorSecondary": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "labelColorDisabled": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "labelColorPrimaryConstant": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "Use this when label color needs to remain constant between light & dark mode. This token references Bild015."
-        },
-        "labelColorPrimaryInverseConstant": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "Use this when label color needs to be constant between light and dark mode. This token references the primitive Bild093."
-        },
-        "labelColorTertiary": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "labelColorPrimaryInverse": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "This variable references Bild015 in light mode and Bild093 in dark mode."
-        }
-      },
-      "SocialShareButton": {
-        "socialShareButtonLabelDefault": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "socialShareButtonLabelActive": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "socialShareButtonBgActive": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "socialShareButtonBgDefault": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        }
-      },
-      "Button": {
-        "buttonPrimarySurfaceColorIdle": {
-          "value": "{Core.coreColorPrimary}",
-          "type": "color"
-        },
-        "buttonPrimarySurfaceColorHover": {
-          "value": "{BILD.reds.BILDRed035}",
-          "type": "color"
-        },
-        "buttonPrimaryLabelColor": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "buttonSecondaryLabelColor": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "buttonSecondaryBorderColorIdle": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "buttonSecondaryBorderColorHover": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "buttonTertirarySurfaceColorHover": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "buttonTertiraryLabelColor": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "buttonTertirarySurfaceColorIdle": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "buttonPrimaryGreenSurfaceColorIdle": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color"
-        },
-        "buttonPrimaryGreenSurfaceColorHover": {
-          "value": "{BILD.greens.BILDGreen063}",
-          "type": "color"
-        },
-        "buttonSecondaryGreenSurfaceColorHover": {
-          "value": "{BILD.greens.BILDGreen093}",
-          "type": "color"
-        },
-        "buttonLiveTickerLoadNewSurfaceColor": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        },
-        "buttonLiveTickerLoadNewLabelColor": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        }
-      },
-      "InputField": {
-        "inputFieldBorderIdle": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "inputFieldBorderActive": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "inputFieldBorderDark": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "inputFieldBorderDarkActive": {
-          "value": "{Semantic.Border.borderColorHighContrast}",
-          "type": "color"
-        },
-        "inputFieldBgDarkLowContrast": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "inputFieldBgDarkMediumContrast": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "inputFieldBgDarkHighContrast": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        }
-      },
-      "Dropdown": {
-        "dropdownBgHover": {
-          "value": "{Semantic.Surface.surfaceColorSecondary}",
-          "type": "color"
-        },
-        "dropdownBgIdle": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        }
-      },
-      "TextLink": {
-        "textLinkColorSecondary": {
-          "value": "{Semantic.Text.textColorSecondary}",
-          "type": "color"
-        },
-        "textLinkColorSecondaryActive": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        },
-        "textLinkColorPrimary": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        }
-      },
-      "Tab": {
-        "tabBgColorHover": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "tabLabelColorActive": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "tabLabelColorDefault": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        }
-      },
-      "MenuItem": {
-        "menuItemBorderActive": {
-          "value": "{Semantic.State.colorPrimaryActive}",
-          "type": "color"
-        },
-        "menuItemLabelColorPrimary": {
-          "value": "{Component.Label.labelColorSecondary}",
-          "type": "color"
-        },
-        "menuItemLabelColorPrimaryActive": {
-          "value": "{Component.Label.labelColorPrimary}",
-          "type": "color"
-        },
-        "menuItemLabelColorSecondary": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color",
-          "description": "The variable can be used on secondary menus that many times show up on dedicated home pages specific to a topic. The menu labels are often times using the color white across color modes."
-        }
-      },
-      "Foldout": {
-        "foldoutLabelColorActive": {
-          "value": "{Semantic.State.colorPrimaryActive}",
-          "type": "color"
-        },
-        "foldoutLabelColorIdle": {
-          "value": "{Component.Label.labelColorSecondary}",
-          "type": "color"
-        }
-      },
-      "Newsticker": {
-        "newsTickerTimestampColor": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "newsTickerMarksIconColor": {
-          "value": "{Component.Newsticker.newsTickerTimestampColor}",
-          "type": "color"
-        }
-      },
-      "Alert": {
-        "alertSurfaceColor": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color",
-          "description": "On marketing offer surfaces this variable is not used. The alertSurfaceConstant variables should be used."
-        },
-        "alertSurfaceColorConstant": {
-          "value": "{Semantic.Surface.surfaceColorPrimaryConstantLight}",
-          "type": "color",
-          "description": "On marketing offer surfaces this variable is not used. The alertSurfaceConstant variables should be used."
-        }
-      },
-      "Empties": {
-        "emptiesBg": {
-          "value": "{Semantic.Surface.surfaceColorSecondary}",
-          "type": "color"
-        },
-        "emptiesLogo": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        }
-      },
-      "Chips": {
-        "chipsBgHover": {
-          "value": "{BILD.reds.BILDRed035}",
-          "type": "color"
-        },
-        "chipsLabelHover": {
-          "value": "{Core.coreColorSecondaryConstant}",
-          "type": "color"
-        },
-        "chipsBgActive": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color"
-        },
-        "chipsBgIdle": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "chipsLabelIdle": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        }
-      },
-      "Card": {
-        "cardSurfaceBg": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        }
-      },
-      "Selection": {
-        "selectionBorderColor": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color",
-          "description": "Checkboxes and Radio buttons use this variable for their border."
-        }
-      },
-      "Hey": {
-        "heyFavInputFieldSurface": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "heyTextColor": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "heyIconUtil": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "heySeparator": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "This is the most used color for separators across Bild products."
-        },
-        "heyDrawerSurface": {
-          "value": "{Semantic.Surface.surfaceColorSecondary}",
-          "type": "color"
-        }
-      },
-      "Pagination": {
-        "paginationElementDefault": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "paginationElementActive": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "galleryPaginationElementActiveOpacity": {
-          "value": 100,
-          "type": "number"
-        }
-      },
-      "Teaser": {
-        "teaserHoverOpacity": {
-          "value": 80,
-          "type": "number"
-        }
-      },
-      "Slider": {
-        "sliderButtonOpacity": {
-          "value": 90,
-          "type": "number"
-        }
-      }
-    },
-    "Core": {
-      "coreColorPrimary": {
-        "value": "{BILD.reds.BILDRed}",
-        "type": "color",
-        "description": "This red color is Bild's main brand color. It remains constant across Light and Dark Mode."
-      },
-      "coreColorSecondary": {
-        "value": "{BILD.neutrals.BILD100}",
-        "type": "color",
-        "description": "This white color is Bild's secondary brand color. This variable changes across Light and Dark Mode."
-      },
-      "coreColorTertiary": {
-        "value": "{BILD.grays.BILD015}",
-        "type": "color",
-        "description": "This dark grey color is Bild's tertiary brand color. This variable changes across Light and Dark Mode."
-      },
-      "coreColorSecondaryConstant": {
-        "value": "{BILD.neutrals.BILD100}",
-        "type": "color",
-        "description": "Use this on elements that must maintain the white color even in dark mode."
-      },
-      "coreColorTertiaryConstant": {
-        "value": "{BILD.grays.BILD015}",
-        "type": "color",
-        "description": "Use this on elements that need to maintain the dark color across themes and color modes."
-      }
-    },
-    "labelTextSurfaceColorPrimaryPrimitiveName": {
-      "value": "BILD100",
-      "type": "text",
-      "description": "This variable is only for use in Figma's Design System File. It is automating some of the content in documentation pages."
-    },
-    "labelTextColorMode": {
-      "value": "(Light Mode)",
-      "type": "text",
-      "description": "This is currently for use in this design system's documentation texts. It is a text string made for being used in light and dark mode documentation texts."
-    }
-  },
-  "BILDColorSemantic/Dark": {
-    "Semantic": {
-      "Text": {
-        "textColorAccentPrimaryConstant": {
-          "value": "{Semantic.Attention.accentColorPrimaryConstant}",
-          "type": "color"
-        },
-        "textColorPrimary": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "textColorMuted": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "textColorPrimaryInverse": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "textColorPrimaryConstant": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "textColorSuccessPrimary": {
-          "value": "{BILD.greens.BILDGreen040}",
-          "type": "color"
-        },
-        "textColorPrimaryInverseConstant": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "textColorSecondary": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "This is used on article image source mainly."
-        },
-        "textColorAttentionHigh": {
-          "value": "{Semantic.Attention.attentionColorHigh}",
-          "type": "color"
-        },
-        "textColorAccentPrimary": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "textColorAttentionMedium": {
-          "value": "{Semantic.Attention.attentionColorMedium}",
-          "type": "color"
-        }
-      },
-      "Surface": {
-        "surfaceColorPrimary": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "surfaceColorSecondary": {
-          "value": "{BILD.grays.BILD020}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryInverse": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryConstantLight": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "surfaceColorPrimaryConstantDark": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "surfaceColorQuartenary": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "surfaceColorSuccess": {
-          "value": "{BILD.greens.BILDGreen093}",
-          "type": "color"
-        },
-        "surfaceColorTertiary": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "surfaceColorTertiaryGradient": {
-          "value": "#343c4100",
-          "type": "color",
-          "description": "Used on skeletons."
-        },
-        "surfaceColorTertiaryInverse": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "This surface color was found on the warning message for logging in with unidentified user or password data."
-        },
-        "surfaceColorPrimaryGradient": {
-          "value": "#23262900",
-          "type": "color",
-          "description": "Used next to sliders buttons and slider container edges for fading out content."
-        },
-        "surfaceColorSecondaryGradient": {
-          "value": "#2c313800",
-          "type": "color"
-        }
-      },
-      "State": {
-        "colorSecondaryActive": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated."
-        },
-        "colorPrimaryActive": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "Use this token for most components that have a hover state. The word active in this design system is used interchangeably with the word hover and pressed. Since hover states do not exist on mobile devices the choice was made to use the word active for representing hover and pressed states."
-        },
-        "colorSecondaryDisabled": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "colorPrimaryDisabled": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "colorSecondaryActiveInverse": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated with the use of color."
-        },
-        "colorTertiaryActive": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color",
-          "description": "Use this token for when a component is interacted with and a state change needs to be indicated."
-        }
-      },
-      "Border": {
-        "borderColorMediumContrast": {
-          "value": "{BILD.grays.BILD045}",
-          "type": "color",
-          "description": "This is the most used color for separators across Bild products."
-        },
-        "borderColorLowContrast": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "borderColorHighContrast": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "borderColorLowContrastConstant": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "borderColorSuccess": {
-          "value": "{Semantic.Attention.attentionColorSuccess}",
-          "type": "color"
-        },
-        "borderColorWarning": {
-          "value": "{Semantic.Attention.attentionColorHigh}",
-          "type": "color"
-        },
-        "borderColorPrimaryDisabled": {
-          "value": "{Semantic.State.colorPrimaryDisabled}",
-          "type": "color"
-        },
-        "borderColorSecondaryDisabled": {
-          "value": "{Semantic.State.colorSecondaryDisabled}",
-          "type": "color"
-        }
-      },
-      "Icon": {
-        "iconColorDefault": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "iconColorInverse": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color",
-          "description": "Uses same as separator neutral tone color. Is lighter tone than iconColor in Dark mode."
-        },
-        "iconColorConstant": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "Uses same as separator neutral tone color. Is lighter tone than iconColor in Dark mode."
-        }
-      },
-      "Attention": {
-        "attentionColorHigh": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "This color variable is the same as Bild's core brand color. This color has been used in marketing content dedicated to subscriptions and in warning messages found in the subscription process. It can be used in other elements that need to grab the user's attention."
-        },
-        "accentColorPrimary": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color",
-          "description": "Bild's accent color is the same as its primary color. In some dark mode elements this color changes to white. This is often used on small elements such as accordion arrows that change color when they change state or hover states that use some red on them in light mode."
-        },
-        "attentionColorMedium": {
-          "value": "{BILD.oranges.BILDOrange}",
-          "type": "color",
-          "description": "This color variable is currently used in Bild's horizontally scrolling breaking news headline content. It can be used in other elements that need to grab the user's attention."
-        },
-        "attentionColorLow": {
-          "value": "{BILD.yellows.BILDYellow}",
-          "type": "color",
-          "description": "This color variable is currently used in marketing content dedicated to the BildPur subscription. It can be used in other elements that need to grab the user's attention."
-        },
-        "accentColorPrimaryConstant": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color",
-          "description": "Use this token when you don't want small accents to change color in dark mode. This is often used on small elements such as accordion arrows that change color when they change state or hover states that use some red on them in light mode."
-        },
-        "attentionColorSuccess": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color",
-          "description": "Fills and strokes use this for grabbing attention and communicating the sentiment of success."
-        }
-      }
-    },
-    "Component": {
-      "Subheader": {
-        "subheadersPrimary": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        }
-      },
-      "Kicker": {
-        "kickerTextOnWhite": {
-          "value": "{Semantic.Text.textColorSecondary}",
-          "type": "color"
-        },
-        "kickerTextOnRed": {
-          "value": "{Semantic.Text.textColorPrimaryInverseConstant}",
-          "type": "color"
-        },
-        "kickerBgOnWhite": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "Partner": {
-          "kickerStylebookBg": {
-            "value": "{Partner.Stylebook.stylebookCore}",
-            "type": "color"
-          },
-          "kickerFitbookBg": {
-            "value": "{Partner.Fitbook.fitbookCore}",
-            "type": "color"
-          },
-          "kickerPetbookBg": {
-            "value": "{Partner.Petbook.petbookCore}",
-            "type": "color"
-          },
-          "kickerMyhomebookBg": {
-            "value": "{Partner.MyHome.myhomeCore}",
-            "type": "color"
-          },
-          "kickerTravelbookBg": {
-            "value": "{Partner.Travelbook.travelbookCore}",
-            "type": "color"
-          },
-          "kickerTechbookBg": {
-            "value": "{Partner.Techbook.techbookCore}",
-            "type": "color"
-          },
-          "kickerKaufberaterBg": {
-            "value": "{Partner.Kaufberater.kaufberaterCore}",
-            "type": "color"
-          },
-          "kickerCobiBg": {
-            "value": "{Partner.ComputerBILD.cobiCore}",
-            "type": "color"
-          },
-          "kickerAubiBg": {
-            "value": "{Partner.Aubi.aubiCore}",
-            "type": "color"
-          },
-          "kickerSpobiBg": {
-            "value": "{SportBILD.spobiBlue300}",
-            "type": "color"
-          },
-          "kickerBzBg": {
-            "value": "{Partner.Bz.bzCore}",
-            "type": "color"
-          }
-        }
-      },
-      "Heading": {
-        "HeadingPrimary": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        },
-        "HeadingWhiteConst": {
-          "value": "{Semantic.Text.textColorPrimaryInverseConstant}",
-          "type": "color"
-        }
-      },
-      "Breadcrumb": {
-        "breadcrumbTextColorIdle": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "breadcrumbTextColorHover": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        }
-      },
-      "LargeTitle": {
-        "largeTilteText": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        }
-      },
-      "BreakingNews": {
-        "breakingNewsTitleSurfaceColor": {
-          "value": "{Semantic.Attention.attentionColorMedium}",
-          "type": "color"
-        },
-        "breakingNewsSurfaceColor": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "breakingNewsTextContentColor": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color"
-        },
-        "breakingNewsTitleTextColor": {
-          "value": "{BILD.grays.BILD010}",
-          "type": "color"
-        }
-      },
-      "Menu": {
-        "menuSurface": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        },
-        "menuScrolledSurfaceGradient": {
-          "value": "#232629f2",
-          "type": "color",
-          "description": "Used on a thin part at the top of header in navigation menu."
-        }
-      },
-      "!MultitextLinks": {
-        "!multitextLinksBorderIdle": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBorderActive": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBgIdle": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksBgActive": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        },
-        "!multitextLinksContainerBorder": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color",
-          "description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
-        }
-      },
-      "Label": {
-        "labelColorPrimary": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "This variable references Bild015 in light mode and Bild093 in dark mode."
-        },
-        "labelColorSecondary": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "labelColorDisabled": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "labelColorPrimaryConstant": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "Use this when label color needs to remain constant between light & dark mode. This token references Bild015."
-        },
-        "labelColorPrimaryInverseConstant": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color",
-          "description": "Use this when label color needs to be constant between light and dark mode. This token references the primitive Bild093."
-        },
-        "labelColorTertiary": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "labelColorPrimaryInverse": {
-          "value": "{BILD.grays.BILD015}",
-          "type": "color",
-          "description": "This variable references Bild015 in light mode and Bild093 in dark mode."
-        }
-      },
-      "SocialShareButton": {
-        "socialShareButtonLabelDefault": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "socialShareButtonLabelActive": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "socialShareButtonBgActive": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "socialShareButtonBgDefault": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        }
-      },
-      "Button": {
-        "buttonPrimarySurfaceColorIdle": {
-          "value": "{BILD.reds.BILDRed}",
-          "type": "color"
-        },
-        "buttonPrimarySurfaceColorHover": {
-          "value": "{BILD.reds.BILDRed035}",
-          "type": "color"
-        },
-        "buttonPrimaryLabelColor": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "buttonSecondaryLabelColor": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "buttonSecondaryBorderColorIdle": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "buttonSecondaryBorderColorHover": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "buttonTertirarySurfaceColorHover": {
-          "value": "{BILD.grays.BILD085-50}",
-          "type": "color"
-        },
-        "buttonTertiraryLabelColor": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "buttonTertirarySurfaceColorIdle": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "buttonPrimaryGreenSurfaceColorIdle": {
-          "value": "{BILD.greens.BILDGreen070}",
-          "type": "color"
-        },
-        "buttonPrimaryGreenSurfaceColorHover": {
-          "value": "{BILD.greens.BILDGreen063}",
-          "type": "color"
-        },
-        "buttonSecondaryGreenSurfaceColorHover": {
-          "value": "{BILD.greens.BILDGreen056-50}",
-          "type": "color"
-        },
-        "buttonLiveTickerLoadNewSurfaceColor": {
-          "value": "{Semantic.Surface.surfaceColorPrimary}",
-          "type": "color"
-        },
-        "buttonLiveTickerLoadNewLabelColor": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        }
-      },
-      "InputField": {
-        "inputFieldBorderIdle": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "inputFieldBorderActive": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "inputFieldBorderDark": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "inputFieldBorderDarkActive": {
-          "value": "{Semantic.Border.borderColorHighContrast}",
-          "type": "color"
-        },
-        "inputFieldBgDarkLowContrast": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "inputFieldBgDarkMediumContrast": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "inputFieldBgDarkHighContrast": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        }
-      },
-      "Dropdown": {
-        "dropdownBgHover": {
-          "value": "{Semantic.Surface.surfaceColorQuartenary}",
-          "type": "color"
-        },
-        "dropdownBgIdle": {
-          "value": "{Semantic.Surface.surfaceColorTertiary}",
-          "type": "color"
-        }
-      },
-      "TextLink": {
-        "textLinkColorSecondary": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "textLinkColorSecondaryActive": {
-          "value": "{Semantic.Text.textColorPrimary}",
-          "type": "color"
-        },
-        "textLinkColorPrimary": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        }
-      },
-      "Tab": {
-        "tabBgColorHover": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color"
-        },
-        "tabLabelColorActive": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "tabLabelColorDefault": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        }
-      },
-      "MenuItem": {
-        "menuItemBorderActive": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "menuItemLabelColorPrimary": {
-          "value": "{Component.Label.labelColorTertiary}",
-          "type": "color"
-        },
-        "menuItemLabelColorPrimaryActive": {
-          "value": "{BILD.grays.BILD096}",
-          "type": "color"
-        },
-        "menuItemLabelColorSecondary": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color",
-          "description": "The variable can be used on secondary menus that many times show up on dedicated home pages specific to a topic. The menu labels are often times using the color white across color modes."
-        }
-      },
-      "Foldout": {
-        "foldoutLabelColorActive": {
-          "value": "{Semantic.State.colorSecondaryActive}",
-          "type": "color"
-        },
-        "foldoutLabelColorIdle": {
-          "value": "{Component.Label.labelColorSecondary}",
-          "type": "color"
-        }
-      },
-      "Newsticker": {
-        "newsTickerTimestampColor": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "newsTickerMarksIconColor": {
-          "value": "{Component.Newsticker.newsTickerTimestampColor}",
-          "type": "color"
-        }
-      },
-      "Alert": {
-        "alertSurfaceColor": {
-          "value": "{BILD.grays.BILD025}",
-          "type": "color",
-          "description": "On marketing offer surfaces this variable is not used. The alertSurfaceConstant variables should be used."
-        },
-        "alertSurfaceColorConstant": {
-          "value": "{Semantic.Surface.surfaceColorPrimaryConstantLight}",
-          "type": "color",
-          "description": "On marketing offer surfaces this variable is not used. The alertSurfaceConstant variables should be used."
-        }
-      },
-      "Empties": {
-        "emptiesBg": {
-          "value": "{Semantic.Surface.surfaceColorTertiary}",
-          "type": "color"
-        },
-        "emptiesLogo": {
-          "value": "{BILD.grays.BILD020}",
-          "type": "color"
-        }
-      },
-      "Chips": {
-        "chipsBgHover": {
-          "value": "{BILD.grays.BILD085}",
-          "type": "color"
-        },
-        "chipsLabelHover": {
-          "value": "{Core.coreColorTertiaryConstant}",
-          "type": "color"
-        },
-        "chipsBgActive": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "chipsBgIdle": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "chipsLabelIdle": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        }
-      },
-      "Card": {
-        "cardSurfaceBg": {
-          "value": "{Semantic.Surface.surfaceColorSecondary}",
-          "type": "color"
-        }
-      },
-      "Selection": {
-        "selectionBorderColor": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color",
-          "description": "Checkboxes and Radio buttons use this variable for their border."
-        }
-      },
-      "Hey": {
-        "heyFavInputFieldSurface": {
-          "value": "{BILD.grays.BILD035}",
-          "type": "color"
-        },
-        "heyTextColor": {
-          "value": "{BILD.grays.BILD093}",
-          "type": "color"
-        },
-        "heyIconUtil": {
-          "value": "{BILD.neutrals.BILD100}",
-          "type": "color"
-        },
-        "heySeparator": {
-          "value": "{BILD.grays.BILD045}",
-          "type": "color",
-          "description": "This is the most used color for separators across Bild products."
-        },
-        "heyDrawerSurface": {
-          "value": "{Semantic.Surface.surfaceColorTertiary}",
-          "type": "color"
-        }
-      },
-      "Pagination": {
-        "paginationElementDefault": {
-          "value": "{BILD.grays.BILD060}",
-          "type": "color"
-        },
-        "paginationElementActive": {
-          "value": "{Semantic.Attention.accentColorPrimary}",
-          "type": "color"
-        },
-        "galleryPaginationElementActiveOpacity": {
-          "value": 100,
-          "type": "number"
-        }
-      },
-      "Teaser": {
-        "teaserHoverOpacity": {
-          "value": 80,
-          "type": "number"
-        }
-      },
-      "Slider": {
-        "sliderButtonOpacity": {
-          "value": 90,
-          "type": "number"
-        }
-      }
-    },
-    "Core": {
-      "coreColorPrimary": {
-        "value": "{BILD.reds.BILDRed}",
-        "type": "color",
-        "description": "This red color is Bild's main brand color. It remains constant across Light and Dark Mode."
-      },
-      "coreColorSecondary": {
-        "value": "{BILD.grays.BILD015}",
-        "type": "color",
-        "description": "This white color is Bild's secondary brand color. This variable changes across Light and Dark Mode."
-      },
-      "coreColorTertiary": {
-        "value": "{BILD.neutrals.BILD100}",
-        "type": "color",
-        "description": "This dark grey color is Bild's tertiary brand color. This variable changes across Light and Dark Mode."
-      },
-      "coreColorSecondaryConstant": {
-        "value": "{BILD.neutrals.BILD100}",
-        "type": "color",
-        "description": "Use this on elements that must maintain the white color even in dark mode."
-      },
-      "coreColorTertiaryConstant": {
-        "value": "{BILD.grays.BILD015}",
-        "type": "color",
-        "description": "Use this on elements that need to maintain the dark color across themes and color modes."
-      }
-    },
-    "labelTextSurfaceColorPrimaryPrimitiveName": {
-      "value": "BILD010",
-      "type": "text",
-      "description": "This variable is only for use in Figma's Design System File. It is automating some of the content in documentation pages."
-    },
-    "labelTextColorMode": {
-      "value": "(Dark Mode)",
-      "type": "text",
-      "description": "This is currently for use in this design system's documentation texts. It is a text string made for being used in light and dark mode documentation texts."
-    }
-  },
-  "componentVisibility/XS - 320px": {
-    "visibleOnDesktopOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnMobileOnly": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "tableSideShadowViewState": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "visibleOnDesktopTabletOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnTabletOnly": {
-      "value": "false",
-      "type": "boolean"
-    }
-  },
-  "componentVisibility/SM - 390px": {
-    "visibleOnDesktopOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnMobileOnly": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "tableSideShadowViewState": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "visibleOnDesktopTabletOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnTabletOnly": {
-      "value": "false",
-      "type": "boolean"
-    }
-  },
-  "componentVisibility/MD - 600px": {
-    "visibleOnDesktopOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnMobileOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "tableSideShadowViewState": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnDesktopTabletOnly": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "visibleOnTabletOnly": {
-      "value": "true",
-      "type": "boolean"
-    }
-  },
-  "componentVisibility/LG -1024px": {
-    "visibleOnDesktopOnly": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "visibleOnMobileOnly": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "tableSideShadowViewState": {
-      "value": "false",
-      "type": "boolean"
-    },
-    "visibleOnDesktopTabletOnly": {
-      "value": "true",
-      "type": "boolean"
-    },
-    "visibleOnTabletOnly": {
-      "value": "false",
-      "type": "boolean"
-    }
-  },
-  "BILDSpaceScaling/SmallSpace": {
-    "Button": {
-      "ContentGapSpace": {
-        "value": "{space0_75x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "StackSpace": {
-        "value": "{space0_75x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "LabelFontSize": {
-        "value": 15,
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes."
-      },
-      "InlineSpace": {
-        "value": "{space2x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      }
-    }
-  },
-  "BILDSpaceScaling/MediumSpace": {
-    "Button": {
-      "ContentGapSpace": {
-        "value": "{space1x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "StackSpace": {
-        "value": "{space1x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "LabelFontSize": {
-        "value": 17,
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes."
-      },
-      "InlineSpace": {
-        "value": "{space2_5x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      }
-    }
-  },
-  "BILDSpaceScaling/LargeSpace": {
-    "Button": {
-      "ContentGapSpace": {
-        "value": "{space1x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "StackSpace": {
-        "value": "{space1_5x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      },
-      "LabelFontSize": {
-        "value": 19,
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes."
-      },
-      "InlineSpace": {
-        "value": "{space3x}",
-        "type": "number",
-        "description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
-      }
-    }
-  },
   "_ColorPrimitive/Value": {
     "BILD": {
       "red": {
@@ -2304,7 +379,7 @@
         "spobiBlue029": {
           "value": "#174482",
           "type": "color",
-          "description": "Tone: 29"
+          "description": "This variable in the current online CSS is called secondary-tenant-color"
         },
         "spobiBlue016": {
           "value": "#0a2750",
@@ -3186,7 +1261,7 @@
           "type": "color"
         },
         "chipsBgColorActive": {
-          "value": "{BILD.red.BILDRed}",
+          "value": "{Component.chipColorActive}",
           "type": "color"
         },
         "chipsBgColorIdle": {
@@ -4908,6 +2983,14 @@
         },
         "footerLineHeight": {
           "value": 14,
+          "type": "number"
+        },
+        "footerFontSizeUserOfferPages": {
+          "value": 18,
+          "type": "number"
+        },
+        "footerLineHeightUserOfferPages": {
+          "value": 26,
           "type": "number"
         }
       },
@@ -7187,6 +5270,14 @@
         "footerLineHeight": {
           "value": 14,
           "type": "number"
+        },
+        "footerFontSizeUserOfferPages": {
+          "value": 18,
+          "type": "number"
+        },
+        "footerLineHeightUserOfferPages": {
+          "value": 26,
+          "type": "number"
         }
       },
       "Inputfield": {
@@ -9464,6 +7555,14 @@
         },
         "footerLineHeight": {
           "value": 14,
+          "type": "number"
+        },
+        "footerFontSizeUserOfferPages": {
+          "value": 18,
+          "type": "number"
+        },
+        "footerLineHeightUserOfferPages": {
+          "value": 26,
           "type": "number"
         }
       },
@@ -11743,6 +9842,14 @@
         "footerLineHeight": {
           "value": 14,
           "type": "number"
+        },
+        "footerFontSizeUserOfferPages": {
+          "value": 18,
+          "type": "number"
+        },
+        "footerLineHeightUserOfferPages": {
+          "value": 26,
+          "type": "number"
         }
       },
       "Inputfield": {
@@ -13576,7 +11683,7 @@
         "coreColorPrimary": {
           "value": "{BILD.red.BILDRed}",
           "type": "color",
-          "description": "Bild: 046; SpoBi: 016"
+          "description": "Bild: 046; SpoBi: 016 current css calls this variable main tenant color"
         },
         "coreColorSecondary": {
           "value": "{BILD.neutral.BILD100}",
@@ -13603,7 +11710,7 @@
         "accentColorPrimary": {
           "value": "{BILD.red.BILDRed}",
           "type": "color",
-          "description": "Bild: Tone 046 ; SpoBi: 016"
+          "description": "Bild: Tone 046 ; SpoBi: 016 This variable is used on small UI elements such as the background color for kickers."
         },
         "accentColorPrimaryDark": {
           "value": "{BILD.neutral.BILD100}",
@@ -13915,6 +12022,10 @@
           "type": "color",
           "description": "This variable is used for decorating the avatar text's underline color. Bild: 046; SpoBi: 029"
         }
+      },
+      "chipColorActive": {
+        "value": "{BILD.red.BILDRed}",
+        "type": "color"
       }
     }
   },
@@ -13924,7 +12035,7 @@
         "coreColorPrimary": {
           "value": "{SportBILD.blue.spobiBlue016}",
           "type": "color",
-          "description": "Bild: 046; SpoBi: 016"
+          "description": "Bild: 046; SpoBi: 016 current css calls this variable main tenant color"
         },
         "coreColorSecondary": {
           "value": "{BILD.neutral.BILD100}",
@@ -13949,9 +12060,9 @@
       },
       "Attention": {
         "accentColorPrimary": {
-          "value": "{SportBILD.blue.spobiBlue016}",
+          "value": "{SportBILD.blue.spobiBlue029}",
           "type": "color",
-          "description": "Bild: Tone 046 ; SpoBi: 016"
+          "description": "Bild: Tone 046 ; SpoBi: 016 This variable is used on small UI elements such as the background color for kickers."
         },
         "accentColorPrimaryDark": {
           "value": "{SportBILD.blue.spobiBlue098}",
@@ -14263,6 +12374,10 @@
           "type": "color",
           "description": "This variable is used for decorating the avatar text's underline color. Bild: 046; SpoBi: 029"
         }
+      },
+      "chipColorActive": {
+        "value": "{SportBILD.blue.spobiBlue029}",
+        "type": "color"
       }
     }
   },
@@ -14798,6 +12913,18 @@
             "headline4FontWeight": {
               "value": "{FontWeight.600BoldFontWeight}",
               "type": "number"
+            },
+            "headline2FontWeightSt": {
+              "value": "{FontWeightString.700BlackFontWeight}",
+              "type": "text"
+            },
+            "headline3FontWeightSt": {
+              "value": "{FontWeightString.700BlackFontWeight}",
+              "type": "text"
+            },
+            "headline4FontWeightSt": {
+              "value": "{FontWeightString.600BoldFontWeight}",
+              "type": "text"
             }
           },
           "Kicker": {
@@ -15468,6 +13595,10 @@
         "appTopBarTitleLineHeightSM": {
           "value": 14,
           "type": "number"
+        },
+        "menuItemFontWeight": {
+          "value": "{FontWeightString.700BlackFontWeight}",
+          "type": "text"
         }
       },
       "Teaser": {
@@ -15569,6 +13700,10 @@
           "value": 21,
           "type": "number"
         }
+      },
+      "buttonLabelFontWeightSt": {
+        "value": "{FontWeightString.600BoldFontWeight}",
+        "type": "text"
       }
     },
     "brandName": {
@@ -16108,6 +14243,18 @@
             "headline4FontWeight": {
               "value": "{FontWeight.700BlackFontWeight}",
               "type": "number"
+            },
+            "headline2FontWeightSt": {
+              "value": "{FontWeightString.600BoldItalicFontWeight}",
+              "type": "text"
+            },
+            "headline3FontWeightSt": {
+              "value": "{FontWeightString.600BoldItalicFontWeight}",
+              "type": "text"
+            },
+            "headline4FontWeightSt": {
+              "value": "{FontWeightString.600BoldItalicFontWeight}",
+              "type": "text"
             }
           },
           "Kicker": {
@@ -16778,6 +14925,10 @@
         "appTopBarTitleLineHeightSM": {
           "value": 14,
           "type": "number"
+        },
+        "menuItemFontWeight": {
+          "value": "{FontWeightString.700BlackItalicFontWeight}",
+          "type": "text"
         }
       },
       "Teaser": {
@@ -16879,6 +15030,10 @@
           "value": 26,
           "type": "number"
         }
+      },
+      "buttonLabelFontWeightSt": {
+        "value": "{FontWeightString.600BoldItalicFontWeight}",
+        "type": "text"
       }
     },
     "brandName": {
@@ -17418,6 +15573,18 @@
             "headline4FontWeight": {
               "value": "{FontWeight.600BoldFontWeight}",
               "type": "number"
+            },
+            "headline2FontWeightSt": {
+              "value": "{FontWeightString.700BlackFontWeight}",
+              "type": "text"
+            },
+            "headline3FontWeightSt": {
+              "value": "{FontWeightString.700BlackFontWeight}",
+              "type": "text"
+            },
+            "headline4FontWeightSt": {
+              "value": "{FontWeightString.600BoldFontWeight}",
+              "type": "text"
             }
           },
           "Kicker": {
@@ -18088,6 +16255,10 @@
         "appTopBarTitleLineHeightSM": {
           "value": 14,
           "type": "number"
+        },
+        "menuItemFontWeight": {
+          "value": "{FontWeightString.700BlackFontWeight}",
+          "type": "text"
         }
       },
       "Teaser": {
@@ -18189,6 +16360,10 @@
           "value": 21,
           "type": "number"
         }
+      },
+      "buttonLabelFontWeightSt": {
+        "value": "{FontWeightString.600BoldFontWeight}",
+        "type": "text"
       }
     },
     "brandName": {
@@ -18834,16 +17009,6 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "_BILDColorPrimitive/Value",
-      "BILDColorSemantic/Light",
-      "BILDColorSemantic/Dark",
-      "componentVisibility/XS - 320px",
-      "componentVisibility/SM - 390px",
-      "componentVisibility/MD - 600px",
-      "componentVisibility/LG -1024px",
-      "BILDSpaceScaling/SmallSpace",
-      "BILDSpaceScaling/MediumSpace",
-      "BILDSpaceScaling/LargeSpace",
       "_ColorPrimitive/Value",
       "ColorMode/Light",
       "ColorMode/Dark",
