@@ -1,0 +1,1353 @@
+{
+  "bild": {
+    "red": {
+      "bildred": {
+        "$value": "#DD0000",
+        "$type": "color",
+        "$description": "Tone 046",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:539:2239",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildred035": {
+        "$value": "#AF0002",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2580:18750",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildred053": {
+        "$value": "#F52D2D",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2580:18751",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "gray": {
+      "bild015": {
+        "$value": "#232629",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1977",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild085": {
+        "$value": "#CED4DA",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:736:2682",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild035": {
+        "$value": "#4B525A",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:736:2683",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild025": {
+        "$value": "#343C41",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2068:3674",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild060": {
+        "$value": "#8C9196",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2552:18733",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild096": {
+        "$value": "#F2F4F5",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2552:18742",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild093": {
+        "$value": "#E9ECEF",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2881:1765",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild085-alpha50": {
+        "$value": "rgba(206, 212, 218, 0.5)",
+        "$type": "color",
+        "$description": "The 50% opacity on this color makes it equivalent to BILD093.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3746:1642",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild073": {
+        "$value": "#AEB4B9",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3912:4269",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild045": {
+        "$value": "#666B70",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3912:4271",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild010": {
+        "$value": "#1C1C1C",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8929:18579",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bild020": {
+        "$value": "#2C3138",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8969:49793",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "neutral": {
+      "bild100": {
+        "$value": "#FFFFFF",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1978",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildblack": {
+        "$value": "#000000",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17326:23858",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "orange": {
+      "bildorange": {
+        "$value": "#FD8227",
+        "$type": "color",
+        "$description": "Tone: 067",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2496:18724",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "green": {
+      "bildgreen070": {
+        "$value": "#00C373",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2496:18725",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen063": {
+        "$value": "#00AF67",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2722:10737",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen093": {
+        "$value": "#CEF4E4",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2812:809",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen093-alpha50": {
+        "$value": "rgba(206, 244, 228, 0.5)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3756:1744",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen056-alpha50": {
+        "$value": "rgba(0, 155, 90, 0.5)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3765:1756",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen040": {
+        "$value": "#006E3E",
+        "$type": "color",
+        "$description": "This value of green was found in a text field's text color.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9697:16953",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bildgreen056": {
+        "$value": "#18995C",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18489:23879",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "textlabels": {
+      "bildred": {
+        "$value": "BILDRed",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:864",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild100": {
+        "$value": "BILD100",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:865",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild096": {
+        "$value": "BILD096",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:866",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild085": {
+        "$value": "BILD085",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:867",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild060": {
+        "$value": "BILD060",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:868",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild035": {
+        "$value": "BILD035",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:869",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild025": {
+        "$value": "BILD025",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:870",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild015": {
+        "$value": "BILD015",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:871",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildorange": {
+        "$value": "BILDOrange",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:872",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildred053": {
+        "$value": "BILDRed053",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:873",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildred035": {
+        "$value": "BILDRed035",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:874",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildgreen093": {
+        "$value": "BILDGreen093",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:875",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildgreen070": {
+        "$value": "BILDGreen070",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:876",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildgreen063": {
+        "$value": "BILDGreen063",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2857:877",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild093": {
+        "$value": "BILD093",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2880:10484",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bildyellow": {
+        "$value": "BILDYellow",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2979:10318",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild073": {
+        "$value": "BILD073",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3912:4270",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "bild045": {
+        "$value": "BILD045",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3912:4272",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    },
+    "yellow": {
+      "bildyellow": {
+        "$value": "#FFBF00",
+        "$type": "color",
+        "$description": "Tone: 081",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2979:10317",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "purple": {
+      "bildberry": {
+        "$value": "#551937",
+        "$type": "color",
+        "$description": "Tone: 020",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5457:10118",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "alpha": {
+      "alphablack20": {
+        "$value": "rgba(0, 0, 0, 0.20000000298023224)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7765:32149",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack10": {
+        "$value": "rgba(0, 0, 0, 0.10000000149011612)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7765:33969",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack60": {
+        "$value": "rgba(0, 0, 0, 0.6000000238418579)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8076:22743",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack30": {
+        "$value": "rgba(0, 0, 0, 0.30000001192092896)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8900:5503",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack70": {
+        "$value": "rgba(0, 0, 0, 0.699999988079071)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16894:98370",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite10": {
+        "$value": "rgba(255, 255, 255, 0.10000000149011612)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16914:22433",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite20": {
+        "$value": "rgba(255, 255, 255, 0.20000000298023224)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16914:22434",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite30": {
+        "$value": "rgba(255, 255, 255, 0.30000001192092896)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16914:22435",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite60": {
+        "$value": "rgba(255, 255, 255, 0.6000000238418579)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16914:22436",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite70": {
+        "$value": "rgba(255, 255, 255, 0.699999988079071)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16914:22437",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite35": {
+        "$value": "rgba(255, 255, 255, 0.3499999940395355)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17381:17511",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphabildred80": {
+        "$value": "rgba(221, 0, 0, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17385:14798",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack80": {
+        "$value": "rgba(0, 0, 0, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17385:14799",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphawhite80": {
+        "$value": "rgba(255, 255, 255, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17385:14801",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack35": {
+        "$value": "rgba(0, 0, 0, 0.3499999940395355)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17389:15070",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack0": {
+        "$value": "rgba(0, 0, 0, 0)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17390:25780",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack50": {
+        "$value": "rgba(0, 0, 0, 0.5)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17500:35355",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alphablack05": {
+        "$value": "rgba(0, 0, 0, 0.05000000074505806)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19706:121945",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "blue": {
+      "bildblue": {
+        "$value": "#00B1FF",
+        "$type": "color",
+        "$description": "This Blue color was taken from the Weather 2024 project. Tone: 069",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12717:3755",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    }
+  },
+  "partner": {
+    "fitbook": {
+      "fitbookcore": {
+        "$value": "#FF97B7",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163537",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "petbook": {
+      "petbookcore": {
+        "$value": "#B9DB91",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163538",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "myhome": {
+      "myhomecore": {
+        "$value": "#66CCCC",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163539",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "travelbook": {
+      "travelbookcore": {
+        "$value": "#8EF0ED",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163540",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "techbook": {
+      "techbookcore": {
+        "$value": "#93E4FF",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163541",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "kaufberater": {
+      "kaufberatercore": {
+        "$value": "#55476E",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163542",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "bz": {
+      "bzcore": {
+        "$value": "#E3001B",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163543",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "aubi": {
+      "aubicore": {
+        "$value": "#F00000",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163544",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "computerbild": {
+      "cobicore": {
+        "$value": "#DC231C",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163545",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    }
+  },
+  "sportbild": {
+    "blue": {
+      "spobiblue098": {
+        "$value": "#F7F9FD",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163546",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue081": {
+        "$value": "#BDCADB",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16104:163547",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue029": {
+        "$value": "#174482",
+        "$type": "color",
+        "$description": "This variable in the current online CSS is called secondary-tenant-color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16107:27",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue016": {
+        "$value": "#0A2750",
+        "$type": "color",
+        "$description": "This variable in the current online CSS is called main-tenant-color for the spobi tenant.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16107:28",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue010": {
+        "$value": "#081828",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16107:29",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue038": {
+        "$value": "#315998",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18489:25069",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "red": {
+      "spobired": {
+        "$value": "#E52528",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18343:6628",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "alpha": {
+      "spobiblue016-alpha0": {
+        "$value": "rgba(10, 39, 80, 0)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18355:65196",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "spobiblue016-alpha70": {
+        "$value": "rgba(10, 39, 80, 0.699999988079071)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18355:65197",
+            "variableCollectionId": "VariableCollectionId:539:2238",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    }
+  },
+  "opacity": {
+    "opacity05": {
+      "$value": "5px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24615",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity10": {
+      "$value": "10px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24616",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity20": {
+      "$value": "20px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24829",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity40": {
+      "$value": "40px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24830",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity60": {
+      "$value": "60px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24961",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity80": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24962",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity100": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:24963",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity90": {
+      "$value": "90px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:25043",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity30": {
+      "$value": "30px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:25044",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity50": {
+      "$value": "50px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:25045",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity00": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:25046",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "opacity70": {
+      "$value": "70px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18489:25047",
+          "variableCollectionId": "VariableCollectionId:539:2238",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  }
+}
