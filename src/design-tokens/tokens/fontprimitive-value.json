@@ -1,0 +1,589 @@
+{
+  "fontfamily": {
+    "bild": {
+      "fontfamilygothamxnarrow": {
+        "$value": "Gotham XNarrow",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:585:1969",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "fontfamilygothamcond": {
+        "$value": "Gotham Condensed",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1985",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "fontfamilygotham": {
+        "$value": "Gotham",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1986",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    },
+    "advertorial": {
+      "fontfamilylucidagrande": {
+        "$value": "Lucida Grande",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17036:23304",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    },
+    "sportbild": {
+      "fontfamilyantennaextracond": {
+        "$value": "AntennaExtraCond",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18038:10602",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "fontfamilyantennacond": {
+        "$value": "AntennaCond",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18038:10603",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "fontfamilyinter": {
+        "$value": "Inter",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18056:4790",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    }
+  },
+  "fontweight": {
+    "700blackfontweight": {
+      "$value": "700px",
+      "$type": "dimension",
+      "$description": "700 is considered black weight because Gotham Condensed is the primary font family (most used in headlines). In other font families 700 is not black weight but bold.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:588:1987",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "900extrablackfontweight": {
+      "$value": "900px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:588:1988",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "400bookfontweight": {
+      "$value": "400px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:634:877",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "1000ultrafontweight": {
+      "$value": "1000px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:982:2356",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "800blackfontweight": {
+      "$value": "800px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:1045:2748",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "350bookfontweight": {
+      "$value": "350px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:1259:9",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "600boldfontweight": {
+      "$value": "600px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4197:5113",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "100thinfontweight": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3023",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "300lightfontweight": {
+      "$value": "300px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3024",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "200extralightfontweight": {
+      "$value": "200px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3025",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "500mediumfontweight": {
+      "$value": "500px",
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3026",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "bolditalicfontweightst": {
+      "$value": "Bold Italic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18164:13480",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "blackfontweightst": {
+      "$value": "Black",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18164:13485",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    }
+  },
+  "letterspacing": {
+    "letterspace-0_25": {
+      "$value": "-0.25px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a subtle small letter spacing value of -0.25.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32557",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace-0": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a default letter spacing value of 0.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32558",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace1": {
+      "$value": "1px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a positive letter spacing value of 1.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32559",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace0_5": {
+      "$value": "0.5px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a slight positive letter spacing value of 0.5.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32560",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace0_25": {
+      "$value": "0.25px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a subtle positive letter spacing value of 0.25.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32561",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace-0_5": {
+      "$value": "-0.5px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a subtle negative letter spacing value of -0.5.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32562",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace2": {
+      "$value": "2px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large letter spacing value of 2.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32563",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace-1": {
+      "$value": "-1px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a negative letter spacing value of -1.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32564",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace-2": {
+      "$value": "-2px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large negative letter spacing value of -2. This is usually reserved for large texts styles that are used on titles or headlines.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32565",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace3": {
+      "$value": "3px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a much larger letter spacing value of 3. Text styles that have smaller font sizes should use increasingly positive values for their letter spacings on smaller device sizes.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32922",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letterspace-3": {
+      "$value": "-3px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large negative letter spacing value of -3. Text styles that have larger font sizes should use increasingly negative values for their letter spacings on larger device sizes.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32923",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  },
+  "fontweightstring": {
+    "1000ultrafontweight": {
+      "$value": "1000",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5779",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "900extrablackfontweight": {
+      "$value": "900",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5780",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "800blackfontweight": {
+      "$value": "800",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5781",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "700blackfontweight": {
+      "$value": "700",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5782",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "600boldfontweight": {
+      "$value": "600",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5783",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "500mediumfontweight": {
+      "$value": "500",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5784",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "400bookfontweight": {
+      "$value": "400",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5785",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "350bookfontweight": {
+      "$value": "350",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5786",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "200extralightfontweight": {
+      "$value": "200",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5787",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "100thinfontweight": {
+      "$value": "100",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5788",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "600bolditalicfontweight": {
+      "$value": "Bold Italic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5789",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "700blackitalicfontweight": {
+      "$value": "Black Italic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:19144:63647",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    }
+  }
+}
