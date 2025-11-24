@@ -1,0 +1,117 @@
+{
+  "component": {
+    "button": {
+      "buttoncontentgapspace": {
+        "$value": "{space1x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5695:5842",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "buttonstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5696:5853",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "buttonlabelfontsize": {
+        "$value": "19px",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes. Font size across devices: 15 - 17 - 19",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:13264:8396",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "buttoninlinespace": {
+        "$value": "{space3x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:13264:8569",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      }
+    },
+    "inputfield": {
+      "inputfieldinlinespace": {
+        "$value": "{space2x}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18682:535",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "inputfieldstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18682:536",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "inputfieldheightsize": {
+        "$value": "{size6x}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18682:4564",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "inputfieldlabelfontsize": {
+        "$value": "19px",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes. Font size across scaling options: compact 15 - default 17 - spacious 19",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18693:666",
+            "variableCollectionId": "VariableCollectionId:5695:5841",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      }
+    }
+  }
+}
