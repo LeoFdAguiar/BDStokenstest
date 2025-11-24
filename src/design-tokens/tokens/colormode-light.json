@@ -1,0 +1,3491 @@
+{
+  "semantic": {
+    "text": {
+      "textcoloraccentconstant": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Applies to text elements requiring fixed brand color usage (e.g., permanent links, brand slogans on constant backgrounds).\nBehavior: Constant — maintains identical red tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1980",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorprimary": {
+        "$value": "{Global.Text.textColorPrimary}",
+        "$type": "color",
+        "$description": "Main text color used for body copy and all primary textual content. Ensures optimal readability and contrast on standard surfaces.\nBehavior: Dynamic — switches between dark text on light backgrounds and light text on dark backgrounds.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1981",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolormuted": {
+        "$value": "{BILD.gray.BILD045}",
+        "$type": "color",
+        "$description": "Muted text tone for subtle information, timestamps, or inactive text elements.\nBehavior: Dynamic — adjusts between mid-gray in Light mode and lighter gray in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5511:2499",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorprimaryinverse": {
+        "$value": "{Global.Text.textColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Inverse text color used on opposing surfaces (e.g., white text on red or dark backgrounds).\nBehavior: Dynamic — alternates between light and dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7129:69342",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorprimaryconstant": {
+        "$value": "{Global.Text.textColorPrimary}",
+        "$type": "color",
+        "$description": "Used when primary text color must remain fixed regardless of mode (e.g., on light constant backgrounds).\nBehavior: Constant — same tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9694:13817",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorsuccessconstant": {
+        "$value": "{Semantic.Attention.attentionColorSuccessSecondary}",
+        "$type": "color",
+        "$description": "Used for positive or success-related messages (e.g., “Saved”, “Success”, or confirmation text) on success surface colors.\nBehavior: Constant — green tone remains consistent across both modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9692:15537",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorprimaryinverseconstant": {
+        "$value": "{Global.Text.textColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Fixed inverse tone for text that always appears on dark surfaces (e.g., hero headlines or persistent dark cards).\nBehavior: Constant — unchanged across modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9916:26696",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorsecondary": {
+        "$value": "{Global.Text.textColorSecondary}",
+        "$type": "color",
+        "$description": "Secondary text color used for supportive information, subtitles, and less prominent text.\nBehavior: Dynamic — adapts between neutral tones to maintain proper contrast per theme. In 2025 css it is called figure meta.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:13150:34412",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorattentionhigh": {
+        "$value": "{Semantic.Attention.attentionColorHigh}",
+        "$type": "color",
+        "$description": "Used for strong warnings, errors, or destructive action labels.\nBehavior: Constant — red color remains unchanged between Light and Dark mode for visibility and recognition.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:19035",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcoloraccent": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Accent text color used for links, interactive text, or highlighted key words. Changes from a red in light mode to a white in dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:318799",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorattentionmedium": {
+        "$value": "{Semantic.Attention.attentionColorMedium}",
+        "$type": "color",
+        "$description": "Represents medium attention states, often used in warnings or pending states.\nBehavior: Constant — same orange tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:318945",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textcolorondarksurface": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Used for text displayed on dark surfaces to ensure maximum legibility and contrast.\nBehavior: Constant — always light neutral to guarantee accessibility on dark backgrounds.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19358:163830",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "surface": {
+      "surfacecolorprimary": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$description": "Primary surface color used for main backgrounds and large layout areas (e.g., page background, primary containers).\nBehavior: Dynamic — adapts between light and dark surface tokens to maintain legibility and hierarchy.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1984",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorsecondary": {
+        "$value": "{Global.Surface.surfaceColorSecondary}",
+        "$type": "color",
+        "$description": "Used for secondary surface layers such as cards, panels, or nested containers that need to differentiate themselves from the primary surface. .\nBehavior: Dynamic — adapts brightness level based on mode for appropriate depth contrast.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:4978:2986",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorprimaryinverse": {
+        "$value": "{Global.Surface.surfaceColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Inverse of the primary surface, used when Light and Dark surfaces are swapped (e.g., inverse cards or elevated sections).\nBehavior: Dynamic — switches between dark and light values depending on mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5952:3059",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorprimaryconstantlight": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$description": "A fixed light surface tone used when a consistent light background is required (e.g., light panels within dark layouts).\nBehavior: Constant — remains the same in both modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7506:5590",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorprimaryconstantdark": {
+        "$value": "{Global.Surface.surfaceColorPrimaryDark}",
+        "$type": "color",
+        "$description": "A fixed dark surface tone used for dark overlays or nested dark sections inside light layouts.\nBehavior: Constant — identical across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7531:63125",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorquartenary": {
+        "$value": "{Global.Surface.surfaceColorQuartenary}",
+        "$type": "color",
+        "$description": "HIghtest elevation surface color, typically used for grouping or background accents to differentiate themselves from all previous surface color options. Uses corresponding light/dark tones for consistent layering.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7532:4296",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorsuccess": {
+        "$value": "{BILD.green.BILDGreen093}",
+        "$type": "color",
+        "$description": "Success-related background used for positive notifications, confirmation surfaces, or success banners.\nBehavior: Constant — remains the same across Light and Dark mode to ensure brand alignment.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9697:16794",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolortertiary": {
+        "$value": "{Global.Surface.surfaceColorTertiary}",
+        "$type": "color",
+        "$description": "Tertiary background layer for inner containers, grouped content, or subtle elevation steps  that need to differentiate themselves from the primary and secondary surfaces.\nBehavior: Dynamic — switches between light and dark tertiary tones.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9756:1625",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolortertiarygradientstop": {
+        "$value": "rgba(233, 236, 239, 0)",
+        "$type": "color",
+        "$description": "Represents tertiary-level gradient background.\nCurrently used on skeletons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:11563:10610",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolortertiaryinverse": {
+        "$value": "{Global.Surface.surfaceColorTertiaryDark}",
+        "$type": "color",
+        "$description": "Inverse tertiary background, applied when Light and Dark surfaces are reversed (e.g., dark-on-light cards).\nBehavior: Dynamic — swaps values between modes for contrast preservation.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12682:137901",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorprimarygradientstop": {
+        "$value": "rgba(255, 255, 255, 0)",
+        "$type": "color",
+        "$description": "Defines the end stops for primary surface gradients, creating visual depth or elevation. Used next to sliders buttons and slider container edges for fading out content. Behavior: Dynamic — light gradients in Light mode, dark gradients in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:14345:7767",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorsecondarygradientstop": {
+        "$value": "rgba(242, 244, 245, 0)",
+        "$type": "color",
+        "$description": "Used for secondary surface gradients or subtle depth layers across backgrounds.\nBehavior: Dynamic — adapts to mode brightness for smooth gradient transitions.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:14345:14512",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "EFFECT_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "surfacecolorquartenaryinverse": {
+        "$value": "{Global.Surface.surfaceColorQuartenaryDark}",
+        "$type": "color",
+        "$description": "Inverse of the quartenary surface, used for background reversals in mixed-layout areas.\nBehavior: Dynamic — inverts between dark and light tones depending on mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19568:251966",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "heading": {
+      "kickertextcoloronsurface": {
+        "$value": "{Global.Text.kickerTextColorOnSurface}",
+        "$type": "color",
+        "$description": "Used for kicker text and category labels placed directly on standard surface backgrounds.\nBehavior: Dynamic — adjusts between red for Light and a neutral tone in Dark modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:733:2657",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "headlinecolorprimary": {
+        "$value": "{Global.Text.headlineColorPrimary}",
+        "$type": "color",
+        "$description": "Primary color for headings and display typography. Ensures clear hierarchy and optimal readability on main surfaces. Adapds it´s color based on the brand mode for brand recognition.\nBehavior: Dynamic — dark text in Light mode, light text in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:733:2659",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "headlinecolorwhiteconst": {
+        "$value": "{Global.Text.headlineColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Fixed white heading color used on dark or colored backgrounds (e.g., hero sections, banners) that remain constant across modes.\nBehavior: Constant — remains white in both Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:762:3573",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "kickertextcoloronred": {
+        "$value": "{Global.Text.kickerTextColorOnBg}",
+        "$type": "color",
+        "$description": "Specialized kicker color for use on red or brand-colored backgrounds (e.g., red kicker bg within teaser cards).\nBehavior: Constant — remains consistent across light and darkmode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:4125:2902",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "kickertextcolorondarkbg": {
+        "$value": "{BILD.alpha.alphaWhite80}",
+        "$type": "color",
+        "$description": "Applied to kicker or meta text on dark colored backgrounds to maintain high legibility.\nBehavior: Constant — always uses semi-transparent white for consistent readability.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19039:103299",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "kickertextcoloronbrightbg": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color",
+        "$description": "Used for kicker text placed on bright or light colored backgrounds. Ensures balanced contrast without harsh visual dominance.\nBehavior: Constant — remains semi-transparent black across both modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19039:103300",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "state": {
+      "colorsecondaryactive": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Defines the active state color for secondary actions (e.g., secondary buttons, tabs, or toggles).\nBehavior: Dynamic — light gray in Light mode and bright gray in Dark mode to maintain perceptual balance.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:736:2684",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colorprimaryactive": {
+        "$value": "{Global.State.colorPrimaryActive}",
+        "$type": "color",
+        "$description": "Used to represent the active or pressed state of primary actions such as tabs or links.\nBehavior: Constant — identical value across modes for consistent interaction feedback.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:844:3883",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colorsecondarydisabled": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Used for disabled secondary elements, ensuring reduced visual prominence while maintaining legibility.\nBehavior: Dynamic — adapts neutral tones based on theme brightness.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3853:2806",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colorprimarydisabled": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Defines the disabled color for primary components (e.g., disabled primary buttons, inputs). Reduces emphasis and contrast to signal inactivity.\nBehavior: Dynamic — slightly lighter in Light mode and darker in Dark mode to remain visually accessible.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3936:1911",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colorsecondaryactiveinverse": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Inverse variant of the secondary active state, applied on dark backgrounds or inverse layouts.\nBehavior: Dynamic — switches between bright and dark tones depending on the background.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5953:3159",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colortertiaryactive": {
+        "$value": "{BILD.green.BILDGreen070}",
+        "$type": "color",
+        "$description": "Represents active or pressed states for tertiary elements (e.g., link highlights, icons, or subtle interactive surfaces).\nBehavior: Constant — uses the same green success tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9226:16790",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "colortertiarydisabled": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Represents disabled states for tertiary levels, maintaining subtle visibility without drawing attention.\nBehavior: Dynamic — adjusts between gray tones for Light and Dark mode consistency.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17386:9661",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "border": {
+      "bordercolormediumcontrast": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Medium-emphasis border color for standard outlines, input fields, or separators that require visible yet non-dominant contrast.\nBehavior: Dynamic — adjusts to maintain legibility in Light and Dark themes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:1954:19186",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorlowcontrast": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Used for subtle dividers and low-emphasis borders in neutral areas (e.g., card outlines, input containers).\nDynamic — light gray in Light mode, dark gray in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8786:2988",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorhighcontrast": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "High-emphasis border color for clear delineation between surfaces (e.g., focus rings, high-contrast UI zones).\nBehavior: Dynamic — light surfaces use a darker neutral, dark surfaces a light neutral tone.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9598:13708",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorlowcontrastconstant": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Applies to UI elements that must visually remain the same regardless of theme (e.g., brand containers, static illustrations). Identical tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9694:16562",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorsuccess": {
+        "$value": "{Semantic.Attention.attentionColorSuccessPrimary}",
+        "$type": "color",
+        "$description": "Used for success states and validation borders (e.g., input success outlines or confirmation frames).\nBehavior: Constant — same success tone across modes for consistent feedback semantics.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12672:137718",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorwarning": {
+        "$value": "{Semantic.Attention.attentionColorHigh}",
+        "$type": "color",
+        "$description": "Defines border color for warning and error-related components, typically used for input validation or caution zones.\nBehavior: Constant — retains the same red warning tone in both Light and Dark modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12672:137719",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorprimarydisabled": {
+        "$value": "{Semantic.State.colorPrimaryDisabled}",
+        "$type": "color",
+        "$description": "Applied to disabled states of primary elements (e.g., buttons, inputs) to visually reduce emphasis and indicate inactivity.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:19036",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "bordercolorsecondarydisabled": {
+        "$value": "{Semantic.State.colorSecondaryDisabled}",
+        "$type": "color",
+        "$description": "Used for secondary component borders in a disabled state (e.g., secondary buttons, inactive input outlines).",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:19037",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "core": {
+      "corecolorprimary": {
+        "$value": "{Global.Core.coreColorPrimary}",
+        "$type": "color",
+        "$description": "Used as the main brand color for key interactive elements such as primary buttons, active states, and prominent highlights. It remains constant across Light and Dark Mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2068:3671",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "corecolorsecondary": {
+        "$value": "{Global.Core.coreColorSecondary}",
+        "$type": "color",
+        "$description": "Defines the secondary brand tone. This variable changes across Light and Dark Mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2068:3672",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "corecolortertiary": {
+        "$value": "{Global.Core.coreColorTertiary}",
+        "$type": "color",
+        "$description": "Represents tertiary brand accents. This variable changes across Light and Dark Mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2068:3673",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "corecolorsecondaryconstant": {
+        "$value": "{Global.Core.coreColorSecondary}",
+        "$type": "color",
+        "$description": "Use this on elements that must maintain the white color even in dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:14215:155421",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "corecolortertiaryconstant": {
+        "$value": "{Global.Core.coreColorTertiary}",
+        "$type": "color",
+        "$description": "Use this on elements that need to maintain the dark color across themes and color modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:14215:155422",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "corecolortertiaryvvpipetest": {
+        "$value": "#476D93",
+        "$type": "color",
+        "$description": "this is a test for the token pipeline",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:20773:45",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "npmtest": {
+        "$value": "#476D93",
+        "$type": "color",
+        "$description": "this is a test for the token pipeline",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:20790:160",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "felipetestcolor": {
+        "$value": "#E9580A",
+        "$type": "color",
+        "$description": "this is a test for the token pipeline",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:20798:160",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "golianitestcolor": {
+        "$value": "#00FFF2",
+        "$type": "color",
+        "$description": "this is a test for the token pipeline",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:20855:76",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "icon": {
+      "iconcolorprimary": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Primary icon color on primary surfaces.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2102:8677",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "iconcolorinverse": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Inverse icon color for use on contrasting backgrounds (e.g., light icons on dark surfaces or dark icons on bright surfaces).\nBehavior: Dynamic — switches between light and dark.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2102:8678",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "iconcolorsecondaryconstant": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Secondary icon tone for less prominent actions or supportive iconography (e.g., secondary buttons, tool icons). Remains unchanged across modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9619:33177",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "iconcolorconstantondark": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Used for icons displayed on dark backgrounds that don´t change colors, ensuring sufficient contrast and legibility.\nBehavior: Constant — always uses a neutral bright value.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17135:11267",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "iconcolorprimaryconstant": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Used for icons that must remain visually consistent regardless of mode (e.g.,  icons that are on surfaces that don't change color).\nIdentical tone in both Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17831:12266",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "iconcolorsuccess": {
+        "$value": "{Semantic.Attention.attentionColorSuccessPrimary}",
+        "$type": "color",
+        "$description": "Represents success or confirmation icons (e.g., checkmarks, completion indicators).\nBehavior: Constant — same success green tone across Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18975:16732",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "label": {
+      "labelcolorprimary": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Primary label color used for labels, badges, or tag text on light backgrounds. Ensures strong readability and visual hierarchy.\nBehavior: Dynamic — dark neutral in Light mode, light neutral in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3269:3503",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolorsecondary": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Secondary label tone used for less prominent text such as secondary badges or supporting labels.\nBehavior: Dynamic — adapts between mid-grays for Light and Dark surfaces.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3599:1619",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolordisabled": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Disabled label tone indicating inactive or unavailable states in UI elements.\nBehavior: Dynamic — lighter gray in Light mode, darker neutral in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3746:1628",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolorprimaryconstant": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Used when primary label color should remain unchanged across modes in static UI areas.\nBehavior: Constant — identical tone in both Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:7531:63134",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolorprimaryinverseconstant": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Fixed inverse label tone applied where white or bright text must always appear, regardless of theme.\nBehavior: Constant — remains bright neutral in both Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8704:13961",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolortertiary": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Tertiary label tone for subtle, low-emphasis UI text such as placeholder text or tertiary badges.\nBehavior: Constant — identical tone across both modes for stable hierarchy.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9618:21019",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "labelcolorprimaryinverse": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Inverse version of the primary label color, used on dark or colored backgrounds.\nBehavior: Dynamic — switches between light and dark.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16353:426",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "attention": {
+      "attentioncolorhigh": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "High-level attention color used for errors, destructive actions, and critical alerts (e.g., delete actions, error states). Remains red in both Light and Dark mode for immediate recognition.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3810:3107",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "accentcolorprimary": {
+        "$value": "{Global.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Primary accent color used to emphasize interactive or highlight elements such as links, selection states, or focus indicators. Adapts in Darkmode to a fully white tone.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5003:3106",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "attentioncolormedium": {
+        "$value": "{BILD.orange.BILDOrange}",
+        "$type": "color",
+        "$description": "Medium-level attention tone representing stronger caution or intermediate alert states. Commonly applied in warning messages. Constant — identical in both modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12663:137504",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "attentioncolorlow": {
+        "$value": "{BILD.yellow.BILDYellow}",
+        "$type": "color",
+        "$description": "Low-level warning or attention tone, typically used for informational or cautionary messages. Same yellow tone across Light and Dark to maintain recognition.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:12684:164993",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "accentcolorprimaryconstant": {
+        "$value": "{Global.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Used for accent highlights that must remain visually consistent across themes (e.g., brand identifiers, logos, or fixed emphasis areas). Color value does not change between Light and Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:318800",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "attentioncolorsuccessprimary": {
+        "$value": "{BILD.green.BILDGreen070}",
+        "$type": "color",
+        "$description": "Primary success color used to indicate positive states, confirmations, or completed actions (e.g., success banners, icons, or badges). Remains the same across modes to ensure recognizability and consistency.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16279:318946",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "attentioncolorextralow": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Very low-contrast background tone used for information or system-neutral surfaces, often for tooltips or quiet information highlights. Dynamic — light neutral in Light mode and dark neutral in Dark mode.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17418:219",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "attentioncolorsuccesssecondary": {
+        "$value": "{BILD.green.BILDGreen040}",
+        "$type": "color",
+        "$description": "Secondary success tone used for secondary states. Maintains the same color in both Light and Dark mode for clarity.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18119:28",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "overlay": {
+      "overlayscrimblack": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color",
+        "$description": "A semi-transparent black overlay used to dim background content when modals, drawers, or dialogs are active. Identical opacity and tone in both Light and Dark mode to ensure consistent overlay depth.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16917:208444",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "overlayscrimwhite": {
+        "$value": "{BILD.alpha.alphaWhite70}",
+        "$type": "color",
+        "$description": "A semi-transparent white overlay used to brighten or fade background layers, often applied behind bottom sheets or temporary panels.\nBehavior: Constant — same opacity level across modes to preserve uniform layering behavior.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16917:208445",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "layeropacity": {
+      "layeropacity05": {
+        "$value": "{Opacity.opacity05}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34211",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity10": {
+        "$value": "{Opacity.opacity10}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34212",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity20": {
+        "$value": "{Opacity.opacity20}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34213",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity30": {
+        "$value": "{Opacity.opacity30}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34214",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity40": {
+        "$value": "{Opacity.opacity40}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34215",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity50": {
+        "$value": "{Opacity.opacity50}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34216",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity60": {
+        "$value": "{Opacity.opacity60}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34217",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity70": {
+        "$value": "{Opacity.opacity70}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34218",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity80": {
+        "$value": "{Opacity.opacity80}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34220",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity90": {
+        "$value": "{Opacity.opacity90}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34221",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity100": {
+        "$value": "{Opacity.opacity100}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34222",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "layeropacity00": {
+        "$value": "{Opacity.opacity00}",
+        "$type": "dimension",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18980:34223",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": false,
+            "resolvedType": "FLOAT"
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "subheader": {
+      "subheaderscolor": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1982",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "breadcrumb": {
+      "breadcrumbtextcoloridle": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Use this token on breadcrumbs that are in their default idle state. This token changes color between light and dark modes. L:035 / D:096",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:736:2681",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "breadcrumbtextcolorhover": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Use this token on breadcrumbs that the user's pointer is hovering on or clicked on. This token changes color between light and dark modes. L:015 / D:100",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3490:2006",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "breakingnews": {
+      "breakingnewstitlesurfacecolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTitleSurfaceColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2496:18723",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "breakingnewssurfacecolor": {
+        "$value": "{Component.BreakingNews.breakingNewsSurfaceColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:4491:2041",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "breakingnewstextcontentcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTextContentColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:4491:2042",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "breakingnewstoptitletextcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTopTitleTextColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16120:163558",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "breakingnewsbottomtitletextcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsBottomTitleTextColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18345:42310",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "menu": {
+      "menusurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:2905:1774",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menuscrolledsurfacegradientcolor": {
+        "$value": "rgba(255, 255, 255, 0.949999988079071)",
+        "$type": "color",
+        "$description": "Used on a thin part at the top of header in navigation menu.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:13414:162820",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menulinklanesurfacecolor": {
+        "$value": "{Component.Menu.menuLinkLaneSurfaceColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18631:74155",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menulinklanelabelcolor": {
+        "$value": "{Component.Menu.menuLinkLaneLabelColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18631:80973",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menulinklanelabelcoloractive": {
+        "$value": "{Component.Menu.menuLinkLaneLabelColorActive}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18641:81006",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "apptopbarsurfacecolor": {
+        "$value": "{Component.Menu.appTopBarSurfaceColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18710:4101",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "apptopbariconcolor": {
+        "$value": "{Component.Menu.appTopBarIconColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18961:17142",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "apptopbartextcolorprimary": {
+        "$value": "{Component.Menu.appTopBarTextColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18961:17145",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "apptobbartabnavbottomborder": {
+        "$value": "{Component.Menu.appTobBarTabNavBottomBorder}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19221:66797",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "apptobbartabnavbottomborderactive": {
+        "$value": "{Component.Menu.appTobBarTabNavBottomBorderActive}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19221:66801",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "partnerlinks": {
+      "partnerlinksbordercoloridle": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3269:2629",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "partnerlinksbordercoloractive": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3269:3502",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "partnerlinksbgcoloridle": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3269:3504",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "partnerlinksbgcoloractive": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3281:3505",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "partnerlinkscontainerbordercolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:14610:19321",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "socialsharebutton": {
+      "socialsharebuttonlabelcolordefault": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3572:1614",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "socialsharebuttonlabelcoloractive": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3572:1615",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "socialsharebuttonbgcoloractive": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3572:1616",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "socialsharebuttonbgcolordefault": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3572:1617",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "buttonprimarybrandbgcoloridle": {
+          "$value": "{Component.Button.PrimaryBrand.buttonPrimaryBgColorIdle}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1627",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimarybrandbgcolorhover": {
+          "$value": "{Component.Button.PrimaryBrand.buttonPrimaryBgColorHover}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1630",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimarylabelcolor": {
+          "$value": "{BILD.neutral.BILD100}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1631",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimarysuccesscoloridle": {
+          "$value": "{BILD.green.BILDGreen056}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3765:1757",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimarysuccesscolorhover": {
+          "$value": "{BILD.green.BILDGreen040}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3765:1758",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimaryneutralbgcoloridle": {
+          "$value": "{Component.Button.PrimaryNeutral.buttonPrimaryBgColorIdle}",
+          "$type": "color",
+          "$description": "Use this variable on the neutral color primary button. Tone changes between light and dark mode. Light mode Bild & SpoBi: Tone 015 ; Dark mode Bild & SpoBi: Tone 100",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:18340:13239",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonprimaryneutralbgcolorhover": {
+          "$value": "{Component.Button.PrimaryNeutral.buttonPrimaryBgColorHover}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:18340:13240",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "buttontertiarylabelcolor": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1633",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttontertiarybordercoloridle": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1634",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttontertiarybordercolorhover": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1635",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttontertiarysuccessbgcolorhover": {
+          "$value": "{BILD.green.BILDGreen093}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3769:1760",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttontertiarysuccessbordercolor": {
+          "$value": "{BILD.green.BILDGreen056}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:18560:21298",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "STROKE_COLOR"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "buttonsecondarybgcolorhover": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3746:1640",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonsecondarylabelcolor": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3752:3402",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "buttonsecondarybgcoloridle": {
+          "$value": "{BILD.gray.BILD093}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:3752:3403",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      },
+      "buttonlivetickerloadnewsurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8871:15630",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "buttonlivetickerloadnewlabelcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8871:17185",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "ghost": {
+        "buttonghostbgcolorhover": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:18560:21299",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      }
+    },
+    "inputfield": {
+      "inputfieldbordercoloridle": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3810:3105",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbordercoloractive": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3810:3106",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbordercolordark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9611:21012",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbordercolordarkactive": {
+        "$value": "{Semantic.Border.borderColorHighContrast}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9611:21013",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbgcolordarklowcontrast": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9611:21014",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbgcolordarkmediumcontrast": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9611:21016",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "inputfieldbgcolordarkhighcontrast": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9617:96731",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "dropdown": {
+      "dropdownbgcolorhover": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3815:4119",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "dropdownbgcoloridle": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3844:1684",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "textlink": {
+      "textlinkcolorsecondary": {
+        "$value": "{Semantic.Text.textColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3853:2804",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textlinkcolorsecondaryactive": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3853:2805",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "textlinkcolorprimary": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9228:1432",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "tab": {
+      "tabbgcolorhover": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3885:1920",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "tablabelcoloractive": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3909:2518",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "tablabelcolordefault": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16677:14841",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "appbottomtabbarbgcolor": {
+        "$value": "{Component.Menu.appBottomTabBarBgColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17784:14153",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "menuitem": {
+      "menuitembordercoloractive": {
+        "$value": "{Component.Menu.menuLinkColorBorderActive}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3904:1660",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menuitemlabelcolorprimary": {
+        "$value": "{Semantic.Label.labelColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:10939:50",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menuitemlabelcolorprimaryactive": {
+        "$value": "{Semantic.Label.labelColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:10939:1291",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "menuitemlabelcolorsecondary": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "The variable can be used on secondary menus that many times show up on dedicated home pages specific to a topic. The menu labels are often times using the color white across color modes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16395:1109823",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "foldout": {
+      "foldoutlabelcoloractive": {
+        "$value": "{Semantic.State.colorPrimaryActive}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3936:1893",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "foldoutlabelcoloridle": {
+        "$value": "{Semantic.Label.labelColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:3936:1910",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "newsticker": {
+      "newstickertimestampcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:5854:2162",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "newstickerbadgeiconscolor": {
+        "$value": "{Component.Newsticker.newsTickerTimestampColor}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16687:31316",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "alert": {
+      "alertsurfacecolor": {
+        "$value": "{Semantic.Attention.attentionColorExtraLow}",
+        "$type": "color",
+        "$description": "On marketing offer surfaces this variable is usually not used. The alertSurfaceConstant variables should be used. This token changes color between light and dark modes. L:100 / D:025",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:6388:192",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "alertsurfacecolorconstant": {
+        "$value": "{Semantic.Surface.surfaceColorPrimaryConstantLight}",
+        "$type": "color",
+        "$description": "On marketing offer surfaces this variable is  used.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16391:770603",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "empties": {
+      "emptiesbgcolor": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8706:4364",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "emptieslogocolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8706:5799",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "chips": {
+      "chipsbgcolorhover": {
+        "$value": "{BILD.red.BILDRed035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8750:42",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "chipslabelcolorhover": {
+        "$value": "{Semantic.Core.coreColorSecondaryConstant}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8750:1377",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "chipsbgcoloractive": {
+        "$value": "{Component.chipColorActive}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8750:1692",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "chipsbgcoloridle": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8750:1693",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "chipslabelcoloridle": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8750:1694",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "card": {
+      "cardsurfacebgcolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:8947:12500",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "selection": {
+      "selectionbordercolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Checkboxes and Radio buttons use this variable for their border.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9226:2048",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "_dsysdoc": {
+      "_dsysdocs_labeltextsurfacecolorprimaryprimitivename": {
+        "$value": "BILD100",
+        "$type": "string",
+        "$description": "This variable is only for use in Figma's Design System File. It is automating some of the content in documentation pages.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9617:96744",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "_dsysdocs_labeltextcolormode": {
+        "$value": "(Light Mode)",
+        "$type": "string",
+        "$description": "This is currently for use in this design system's documentation texts. It is a text string made for being used in light and dark mode documentation texts.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9617:96745",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "dsdocspacingitembgcolor": {
+        "$value": "rgba(221, 0, 0, 0.10000000149011612)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17886:12668",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "dsdocspacingitembordercolor": {
+        "$value": "rgba(221, 0, 0, 0.5)",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17886:12670",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "hey": {
+      "heyfavinputfieldsurfacecolor": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9801:11394",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "heytextcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9827:12418",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "heyiconutilcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9827:12419",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "heyseparatorcolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "This is the most used color for separators across Bild products.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9828:966",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "heydrawersurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:9827:12937",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "pagination": {
+      "paginationelementcolordefault": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:10074:1491",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "paginationelementcoloractive": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16125:168405",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "gallerypaginationelementactiveopacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity100}",
+        "$type": "dimension",
+        "$description": "Use this on gallery slider pagination elements. This can also be applied to hover states of those elements.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16642:28694",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "scrollbartrackbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack10}",
+        "$type": "color",
+        "$description": "Used as the background surface color scroll bars. Found on components that vertically or horizontally stack elements.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17380:3244",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "scrollbarthumbbgcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Use on the scroll bar interactive element which shows where the scroll view is positioned inside the full extent of the scrolling space.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17381:6625",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "kicker": {
+      "standard": {
+        "kickerbgcoloronsurface": {
+          "$value": "{Global.Text.kickerBgColorOnSurface}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:10927:84",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      },
+      "partner": {
+        "kickerfitbookbgcolor": {
+          "$value": "{Partner.Fitbook.fitbookCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8474",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickerpetbookbgcolor": {
+          "$value": "{Partner.Petbook.petbookCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8475",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickermyhomebookbgcolor": {
+          "$value": "{Partner.MyHome.myhomeCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8476",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickertravelbookbgcolor": {
+          "$value": "{Partner.Travelbook.travelbookCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8477",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickertechbookbgcolor": {
+          "$value": "{Partner.Techbook.techbookCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8478",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickerkaufberaterbgcolor": {
+          "$value": "{Partner.Kaufberater.kaufberaterCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8479",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickercobibgcolor": {
+          "$value": "{Partner.ComputerBILD.cobiCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8480",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickeraubibgcolor": {
+          "$value": "{Partner.Aubi.aubiCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8481",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickerspobibgcolor": {
+          "$value": "{SportBILD.blue.spobiBlue029}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16118:8482",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        },
+        "kickerbzbgcolor": {
+          "$value": "{Partner.Bz.bzCore}",
+          "$type": "color",
+          "$extensions": {
+            "com.figma": {
+              "id": "VariableID:16125:168406",
+              "variableCollectionId": "VariableCollectionId:588:1979",
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "hiddenFromPublishing": true,
+              "resolvedType": "COLOR"
+            }
+          }
+        }
+      }
+    },
+    "teaser": {
+      "teaserhoveropacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity80}",
+        "$type": "dimension",
+        "$description": "When users hover over graphical teasers the image reduces opacity to 80%.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16642:28692",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "teasertitlebackgroundgradientstart": {
+        "$value": "{Component.Teaser.teaserTitleBackgroundGradientStart}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18355:65242",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "teasertitlebackgroundgradientstop": {
+        "$value": "{Component.Teaser.teaserTitleBackgroundGradientStop}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18355:65257",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "slider": {
+      "sliderbuttonopacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity90}",
+        "$type": "dimension",
+        "$description": "When users hover on gallery slider buttons the opacity changes to 90%.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:16642:28693",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "OPACITY"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "FLOAT"
+          }
+        }
+      },
+      "slidertrackbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite35}",
+        "$type": "color",
+        "$description": "This variable is used on audio player slider bars. It references a pure white with 35% opacity.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17381:17513",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "mediaplayer": {
+      "vidplayercontrolsautoplaybuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17385:14800",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayercontrolbuttonsbghovercolor": {
+        "$value": "{BILD.alpha.alphaBILDRed80}",
+        "$type": "color",
+        "$description": "This variable is used for hover states of video player control buttons.",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17385:15019",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayercontrolbuttonsbgcolorhover": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17389:15063",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayeroverlayscrimcolor": {
+        "$value": "{BILD.alpha.alphaBlack50}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17495:370",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "audioplayerplaybuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite30}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17593:16476",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayertooltipbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19706:121815",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayercontrolbuttonsbgcolorpressed": {
+        "$value": "{BILD.alpha.alphaBlack05}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19706:121941",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayerprogressbarpreloadbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite30}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19706:124726",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayerunmutebuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19709:71129",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "vidplayerunmutebuttonbgcolorhover": {
+        "$value": "{BILD.alpha.alphaBlack35}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19709:71141",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "avatarlabelcolor": {
+        "$value": "{Component.Avatar.avatarLabelColor}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19012:10966",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      },
+      "avatarlabelcolorhover": {
+        "$value": "{Component.Avatar.avatarLabelColorHover}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19881:148841",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    },
+    "gallery": {
+      "appimagelightboxgallerybgcolor": {
+        "$value": "{BILD.neutral.BILDBlack}",
+        "$type": "color",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:19026:93265",
+            "variableCollectionId": "VariableCollectionId:588:1979",
+            "scopes": [
+              "FRAME_FILL"
+            ],
+            "hiddenFromPublishing": true,
+            "resolvedType": "COLOR"
+          }
+        }
+      }
+    }
+  }
+}
