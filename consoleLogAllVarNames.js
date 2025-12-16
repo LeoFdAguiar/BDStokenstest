@@ -19,7 +19,7 @@
 
   // Process collections in the order they appear in the file
   for (const collection of collections) {
-    const collectionName = collection.name;
+    const collectionName = collection.name; //each entry in collections array has name property
     const prefix = collectionName + "/";  // e.g. "Tokens/", "Brand/", "Primitives/"
 
     // Go through variable IDs in the exact order they are stored (no sorting)
@@ -27,7 +27,7 @@
       const variable = figma.variables.getVariableById(variableId);
       if (variable) {
         // variable.name already includes group hierarchy, e.g. "Colors/Primary/Blue"
-        const fullNameWithCollection = prefix + variable.name;
+        const fullNameWithCollection = prefix + variable.name; //each entry in variable array has name property
         resultLines.push(fullNameWithCollection);
       }
     }
@@ -35,7 +35,7 @@
 
   const output = resultLines.join("\n");
 
-  console.clear();
+  //console.clear();
   console.log(output);
   console.log(`\nTotal variables: ${resultLines.length}`);
 
