@@ -1,0 +1,2173 @@
+{
+  "global": {
+    "display": {
+      "display-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.display-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.display.display-1-letter-spacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 40 - 40 - 72 - 120",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:dbc8a62ad96c5f77903b6013727209e42330e1a7,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "display-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.display-2-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.display.display-2-letter-spacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 36 - 36 - 42 - 64",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:b4ccf929b2bd72ada1a49549b0d3096ec87a231c,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "display-3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.display-3-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.display.display-3-letter-spacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 28 - 28 - 32 - 40",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:8273d6b1673c3b78e8f0f6c8b623733d089373bc,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "headline": {
+      "headline-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.headline-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. Font size: 48 - 48 - 72 - 100",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:c2820cc9b236b01455eec48036b8684736554299,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "headline-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.headline-2-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. This text style's token for the font size parameter changes across device sizes as follows: 40 - 40 - 48 - 64",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:251025acf9f13ff7ab7fb18b385c5e5a6e4d9a2a,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "headline-3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.headline-3-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-3-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. This text style's font size parameter is controlled by the headline3FontSize token: 28 - 28 - 36 - 40",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:d9b8f72c98a6cb74e143403f59579e2f6001cce8,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "headline-4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.headline-4-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-4-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. Font size: 22 - 22 - 26 - 32",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:ba152f6b19bf9bcb6bb4036c3204b02662c911bd,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "subheadline": {
+      "subheadline-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Subheadline.subheadline-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Subheadline.subheadline-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This Subheadlines text style is used in articles. They are placed under the headline at the top of an article. Subheadlines can appear in some teasers also. Font size: 24 - 24 - 32 - 36",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:9eb0273c388d1d9bfd612a5682bdd29f5dda494d,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "kicker": {
+      "kicker-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-1-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 18 - 18 - 22 - 30 --//*//-- currently css uses kicker0 for the naming of this text style and sequence of font size changes",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:2fb1a36490841b751e3e5bfe0a97a0a5efc63370,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "kicker-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-2-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 18 - 18 - 22 - 24 --//*//-- currently css uses kicker1 for the naming of this text style and sequence of font size changes",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:a177008ddf204d9c3aa91d9725ecd8124bf111cf,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "kicker-3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-3-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-3-line-height}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 16 - 16 - 18 - 20 --//*//-- currently css uses kicker2 for the naming of this text style and sequence of font size changes",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:c3251e08766ef5fe2e2c42b067631ab3ead4ed37,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "kicker-4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-4-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-4-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 14 - 14 - 16 - 16 --//*//-- currently css uses kicker3 for the naming of this text style and sequence of font size changes",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:0e131abb083bb2d73b494314c9d5713ee2510421,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "title": {
+      "title-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. Font size: 22 - 22 - 22 - 28",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:433f49d3157898f5c6a0b41ba383d73a6133cfec,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "title-1-uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. Font size: 22 - 22 - 22 - 28",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:690bed1251fb90bb3216f367f55abcb7047892d3,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "title-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title-2-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. \n\nIn the previous system, this style was named Caption. For greater clarity and consistency, it has been renamed to title2. Font size: 16 - 16 - 18 - 20",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:92eb798901c56a3c2e9f9166bfd9fe5287a88d5e,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "title-2-uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title-2-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title-2-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. \n\nIn the previous system, this style was named Caption. For greater clarity and consistency, it has been renamed to title2. Font size: 16 - 16 - 18 - 20",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:39bfa70cfb8f720c9ec5f4c8a6d668def3b2bb93,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "callout": {
+      "callout": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Callout.callout-1-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Callout.callout-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Callouts highlight key information, quotes, or important notes inside content. They stand apart from body text to draw attention. There is overlap between this text style and the title text styles. Font size: 18 - 18 - 22 - 22",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:f5a245859099daf18c185d914ca3f25caf643a8f,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "body": {
+      "body": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+          "paragraphSpacing": "{Semantic.Layout.Section.paragraph-end-space}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:a8913f528ce3314ad002c43be25666cd04cab2b8,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "body-italic": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:61e8f1f5770f56411ebb8db75b5ff0e17e8cc344,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "body-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:85f4fcf3d2e02885cbfe1c3a53b877911a16f2ce,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "body-bold-italic": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:b64798ced60de5d85298fe6d78f90e4a1055c441,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "textlink": {
+        "text-link": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+            "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside body texts. This style is often found in article texts. Font size remains constant at 21 across device sizes.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:b94b73b212ed6691daf3adfb0826f99516a90fdd,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "text-link-italic": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+            "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside body texts that are using the italic style. This style is often found in article texts that need to show contrast for publications titles, specific words or names. Font size remains constant at 21 across device sizes.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:1b808538c2868b4f6617055ea050c45218c6c055,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "text-link-bold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+            "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside emphasized body texts that are using the bold or html strong style. This style is often found in article texts that need to show contrast for specific words or names. Font size remains constant at 21 across device sizes.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:cb80df04c1418ed1b3801e6d45543750a1865948,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "text-link-hover": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+            "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this style for body text links or other text links that are in active state. Font size remains constant at 21 across device sizes.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:b9993488ac268a569ffd978d47b278e23e220fae,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "text-link-bold-hover": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.body-font-size}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.body-line-height}",
+            "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this style for body text links or other text links that are in active state. Font size remains constant at 21 across device sizes.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:9740f85b7b7e5f4f1b905797c7508cc9231a05ad,",
+              "type": "TEXT"
+            }
+          }
+        }
+      }
+    },
+    "footnote": {
+      "footnote-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote-1-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote-1-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. This specific style is commonly used on small two lines of text that are seen on standard teasers. The font size of this text style is similar to the label text style. This text style should be chosen when longer small descriptive texts in a small font size is needed where as the label text style should be used for shorter identifier texts. Font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:2e36e05b622b5157334a764e48fc52c4cb4142b0,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "footnote-1-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote-1-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote-1-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. This text style should be chosen when longer small descriptive texts in a small font size is needed where as the label text style should be used for shorter identifier texts. 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:01848295c82d10b83e43d1c868513b65913e1183,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "footnote-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote-2-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote-2-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. This text style should be chosen when longer small descriptive texts in a small font size is needed where as the label text style should be used for shorter identifier texts. Font size: 12 - 12 - 12 - 16",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:fc0426f148dc504012ad48a67867f15a87ec8a42,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "footnote-2-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote-2-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote-2-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. This text style should be chosen when longer small descriptive texts in a small font size is needed where as the label text style should be used for shorter identifier texts. Font size: 12 - 12 - 12 - 16",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:17023be29c6a4d43debd275de0f17041bb1039e9,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "label": {
+      "label-1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-1-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 17 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:5e606d2f65064f19bebb5bda7b4674194b819ff8,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-1-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-1-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 17 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:61abf21f0cb975f3e9356f08864040740dc7310c,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-1-uppercase-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-1-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-sm}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 17 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:538fae2a4fe053004f04b36064d91fa1a9d6183d,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-2-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 15 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:201771d9b5aa4527ffec6a44386989d3c6a91291,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-2-uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-2-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 15 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:f13327b44659fe8b62de65ffa5135b64c86e0629,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-2-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-2-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 15 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:4a1af85308db97c2e67e808cebfff30f703351b9,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-2-uppercase-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-2-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-2-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This style used on special navi component simiiar to link lane menu items. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. The font size value remains constant at 15 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:e1e52b044a1cfc838135d0cc1d9004266575624f,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-3-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 12 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:4c3413dae72ae1033d4535453e446f04e0f84ffb,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-3-uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-3-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-sm}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 12 across device sizes. Current online CSS .nav_btn--type-list & .nav_btn__text // --nav-btn",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:f7f3bcc196232d34ec89bf1c3bdfaacbc7228d30,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-3-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-3-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-xs}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 12 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:085f4684dc94d0408ade2fc33096f7d017fad6ae,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "label-3-uppercase-bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-3-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-sm}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size value remains constant at 12 across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:a8de7be87ed5c952574bc05854b3d4314caff4e5,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "quote": {
+      "quote": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Quote.quote-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Quote.quote-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Use this text style for sections of text that are inside a fieldset with a quotation given by a person in an interview or a section of text from a larger body of text that need to be emphasized.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:75f86b97407943c39be208274d25f13ff7336158,",
+            "type": "TEXT"
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "article": {
+      "article-kicker": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-kicker-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-1-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style contains the variables necessary for setting how the font parameters for the article kicker behaves across breakpoints. For font size, this component level token currently references the semantic level token kicker1FontSize.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:0326482cead9102414fd3dc83d422613318854b0,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "article-image-caption": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-image-caption-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Article.LineHeight.article-image-caption-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on image captions that show up in article pages only.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:961844702601dbfd9706de41f6fc80f77545b0bf,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "article-headline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-headline-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Article.FontSize.article-headline-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This component level text style is reserved for article page headline texts that show up at the top of article pages. This text style references the generic text styles headline1 and headline2 font size variables. 40 - 40 - 72 - 100",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:ac6166ad2cfa369042210b300ad2de5feb11de8e,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "article-meta-source": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-image-source-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Article.LineHeight.article-image-source-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on short pieces of text that give information about where an image originated. It can also be used on short texts that give information about where a video originated.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:36cf255411abf9afbdbab0dcab96c8508a5d732d,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "article-time-stamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-meta-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Use this text style for time and day text string that commonly shows up along with the article authors avatars. Font size: 12 - 12 - 14 - 16",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:863216d19901b3b58dabeac6828b3bcf3e2cd65a,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "audioplayer": {
+      "audio-player-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.AudioPlayer.audio-player-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.AudioPlayer.audio-player-font-size}"
+        },
+        "$description": "This text style is used on audio player labels for elapsed time, reproduction speed and short functionality description text. Font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:9e1d6bb4cfeba09c0e917134baf664f57493ec2c,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "app-avatar": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Article.FontSize.article-meta-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used for avatar on iOS & Android apps. 12 - 12 - 14 - 16",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:9dbc2f0787bfcbcbd87bbabd67cdea39c4170898,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "avatar-default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatar-label-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Avatar.avatar-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on article page avatar name labels in their default state. Font size: 16 - 16 - 16 - 18\n\n09-2025, on large devices this component uses the css var --footnote-font-size-lg at 1024px bp changes to --footnote-font-size-sm",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:4d33584c3d49327f9df913aadd1c58481f8a5f67,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "avatar-hover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatar-label-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Avatar.avatar-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used on avatars that appear in article pages. Font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:d60da4b757f0983346af3adcbd665b68725bfea4,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "avatar-secondary-info": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatar-label-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Avatar.avatar-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on avatars that show up on article pages. Some avatars have the individual's first and last name on a single line. The second line of the avatar label is then used for secondary information such as the location of the individual in the world. 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:d1618f9d98e15236f5f93296ebe15cac72beba59,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "avatar-secondary-info-hover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatar-label-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Avatar.avatar-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for the active state of the second line of avatar labels. This label text is used for secondary information such as the location of the individual in the world. 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:3d490d4cab20726f990fc2749cf33af83a402f03,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "badge": {
+      "video-ad-badge": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Video.video-ad-badge-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "auto",
+          "textTransform": "uppercase"
+        },
+        "$description": "14 - 14 - 16 - 16 -- This text style is specific to the video horizontal player's ad badge that shows up next to the yellow progress bar that plays during horizontal video advertisements.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:caa45bd450f83d1b98603ff3ca2a49da5494e7dc,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "video-time-badge": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Video.video-time-badge-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Video.video-badge-time-line-height}"
+        },
+        "$description": "This text style is used on horizontal video badges that contain either the video's total duration or a live status identifier. Font size: 16 - 16 - 18 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:8ce415abad804e58b38c14c8b586ebbf5dc0347d,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "breadcrumb": {
+      "breadcrumb": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumb-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumb-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used for the last items in a breadcrumbs chain. It is commonly used in article pages and is a h1 in html. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:f49150c4dda6068cd0850a51650e54040751aede,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "breadcrumb-link": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumb-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumb-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for breadcrumb links that are commonly used in article pages. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:b53c612488a1f085c9b45550af1861a86c04d0d6,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "breadcrumb-link-hover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumb-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumb-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for the hover state of breadcrumbs that are commonly used in article pages. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:2dd1f8173e1cac4ac783008e3340e0f060ccc2d6,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "breakingnews": {
+      "breaking-news-text": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.BreakingNews.breaking-news-scrolling-text-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.BreakingNews.breaking-news-scrolling-text-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this text style on breaking news headlines that horizontally scroll in the breaking news animated strip. Font size constant 21.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:1250d3b695d6e0eac7841437a12c1593f06815c3,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "breaking-news-upper-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.BreakingNews.breaking-news-badge-upper-title-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.BreakingNews.breaking-news-badge-upper-title-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Use this text style on the upper title of the breaking news headline strip. Font size constant 13.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:3b18086867d4bdfdff76c33ead14933acc65616c,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "breaking-news-lower-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.BreakingNews.breaking-news-badge-lower-title-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.BreakingNews.breaking-news-badge-lower-title-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Use this font style on the breaking news badge's lower title. Font size constant 23.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:8651ec14b4b0a8d9559cc560066e1bfd078b079e,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "button": {
+      "button-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Button.button-label-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Button.button-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-positive-sm}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used on button labels. Current online CSS .btn--narrow & .btn",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:6f14a399b28e761322fe4b1c6e7316076c1104eb,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "partner-link-button-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Button.partner-link-button-label-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Button.partner-link-button-label-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on buttons that are commonly used inside of a container for advertizers and partners. This text is used in buttons that open links to external content.  Font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:9221ddc1a855ffa713f348112dc0e621ae87fec0,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "chip": {
+      "chip-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Chip.chip-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "auto"
+        },
+        "$description": "This text style is used on the chips component. They are commonly used for filtering parameters. font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:1e2d162070152824f8810419f1f77dacae38b95a,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "footer": {
+      "footer-link": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Footer.footer-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Footer.footer-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "This text style is used in footer links that show up at the bottom of content pages. Font size constant at 11px.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:248deabe8e9eb916f20f22371505510e9735d252,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "inputfield": {
+      "input-field-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.InputField.input-field-label-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.InputField.input-field-label-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used in dropdowns and other text input fields such as date inputs, search input fields and other inputs for text found in forms for example. Font size references a variable from the density collection. 15 - 17 - 19",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:5130fdc845f664cc55727231932ae083a27bed09,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "liveticker": {
+      "live-ticker-headline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Component.LiveTicker.live-ticker-headlines-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.LiveTicker.live-ticker-headlines-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on live ticker headlines. The font size changes between device sizes. 22 - 22 - 32 -32",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:207cb93e5dc4cafb11680e4342ff7b5fc57aed6c,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "live-ticker-time-stamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.LiveTicker.live-ticker-time-stamp-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.LiveTicker.live-ticker-time-stamp-font-size}"
+        },
+        "$description": "Use this text style on the live ticker time stamps. 14 - 14 - 16 - 16",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:49d600e8c6c41679158a8a144552a53853ee4a87,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "mediaplayer": {
+      "podcast-player-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.AudioPlayer.audio-player-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.AudioPlayer.audio-player-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is used on controller labels of the podcast media player. Font size: 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:432b2527e333b91c2b0469913669b7a1aa3425f1,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "video-ad-time": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Video.video-ad-badge-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "14 - 14 - 16 - 16 -- This text style is specific to the video horizontal player's ad badge that shows up next to the yellow progress bar that plays during the video advertisement.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:744680f452026b569c9a4576793918394a7b9515,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "video-player-time": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.MediaPlayer.vid-player-timecode-font-size}",
+          "fontWeight": 900,
+          "lineHeight": 1,
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this text style on video player time badges that display elapsed, total or live information text labels. This text style references the label2 font size variable. 15px constant",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:84b6e8f9604c328a41d03de1dc546d358a1143d1,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "menu": {
+      "app-topbar-stage-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Menu.app-topbar-title-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Menu.app-topbar-stage-title-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "This text style is used on a small title that is placed above tab elements that are seen on iOS and Android top menu bar.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:4c383d15376cb71e5e1f42de8b235ab4b5432158,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "app-topbar-tabs-title": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Menu.app-topbar-title-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Menu.app-topbar-stage-title-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "iOS and Android apps currently have a top bar with tabs that when selected display different content within the main view of the device. This text style is used for a title text that provides information for the user to situate where they are within the app's content possibilities.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:277d83cd8e558beb00bc3b99c4fae3d874255715,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "menu-item-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menu-item-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menu-item-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Used on menu link lane items and on mobile side menu drawer. Current online CSS naming: --nav-btn",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:e0bebca09c16d8253a988c2c44d9b4ae18676032,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "menu-item-util-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menu-item-util-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menu-item-util-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this tokenized font style for menu items with icons that are more important than the menu link lane items. Current online CSS: .nav_btn--type-util",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:b961685dfd8afbe83a95f519a20b9a98133b31ab,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "newsticker": {
+      "news-ticker-time-stamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.NewsTicker.news-ticker-time-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.NewsTicker.news-ticker-time-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "The vertical newsticker component has timestamps that use this text style. 16 - 16 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:2dbfeb29db3e9ceb2be97117a8d7c87200c00fe0,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "news-ticker-kicker": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-3-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-3-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "This text style is a component level option for the newsticker kicker. Currently the newsticker kicker uses the semantic text style kicker3. This text style references the semantic one.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:1054b88cf542a736dc8ff47be2deabdbe24bf540,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "news-ticker-headline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.headline-3-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-3-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "This text style is used on NewsTicker Headlines. It references the semantic level text style headline3. 28 - 28 - 36 - 40",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:264a2794ed19d7c49972a385d4afe6667b9c3003,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "pagination": {
+      "numbered-pagination-active": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label-1-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label-1-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0-p-25}",
+          "textDecoration": "underline"
+        },
+        "$description": "This component level text style stores the variables for the pagination component's active state (label1 with red accent color underline). Its size remains constant at 17px across device sizes.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:b8867041dc017b7bb1764839eddad073659ee0b9,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "paywall": {
+      "paywall-card-price-tag": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Paywall.paywall-card-price-tag-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Paywall.paywall-card-price-tag-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.display.display-2-letter-spacing}"
+        },
+        "$description": "This text style is used for the paywall price tag text.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:def68b606133b5fec644e6532c04f8e3d776ad6f,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "paywall-card-note": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Paywall.paywall-card-price-note-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Paywall.paywall-card-price-note-line-height}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.display.display-3-letter-spacing}"
+        },
+        "$description": "This text style is used on the paywall card under the price value.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:52cbfb8b6efac4e112f97ce37deba2ddb5602ed9,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "specialnavi": {
+      "special-navi-item-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menu-item-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menu-item-font-size}",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$description": "Used on menu link lane items and on mobile side menu drawer.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:805ca943ba1ae90c1311766c3731c658aa723748,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "tab": {
+      "tab-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tab.tab-label-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style stores variables for the tab component. Tabs are similar to submenus and special navigation elements but tabs do not link to other URLs.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:11fa2fb3fcc54442d7754c40a4cb5b4a596d548d,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "app-bottom-bar-label-default": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tab.apps-tabs-label-font-size}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Tab.apps-tabs-label-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:ebe68c191050e3902e331bdefcb841b34dec505f,",
+            "type": "TEXT"
+          }
+        }
+      },
+      "app-bottom-bar-label-active": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tab.apps-tabs-label-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Tab.apps-tabs-label-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:df34300054ea566743309633c8b6b004402f9e14,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    "teaser": {
+      "ateaser": {
+        "a-teaser-kicker": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Component.Teaser.aTeaser.a-teaser-kicker-font-size}",
+            "fontWeight": 700,
+            "lineHeight": "{Component.Teaser.aTeaser.a-teaser-kicker-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "16 - 16 - 22 - 24 | This text style currently uses two different semantic styles within it, the kicker3 for XS & S, and kicker2 for MD & LG",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:c247342cf2edbc31bab3b55493ffe78771be4a7b,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "a-teaser-headline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.aTeaser.a-teaser-headline-font-size}",
+            "fontWeight": 900,
+            "lineHeight": "{Component.Teaser.aTeaser.a-teaser-headline-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "This text style references the semantic text styles headline3 (XS&SM) and headline2 (MD&LG). 28 - 28 - 48 - 64",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:09547198d4fee0ff7848e71668d898163ffd3bdf,",
+              "type": "TEXT"
+            }
+          }
+        }
+      },
+      "mqteaser": {
+        "mq-teaser-kicker": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Kicker.kicker-4-font-size}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Kicker.kicker-4-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "This component level text style references size variables for the semantic level. Specifically kicker4. 14 - 14 - 16 - 16",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:7c37ce79a57c1cad79f9e4c5b373e05b2f268211,",
+              "type": "TEXT"
+            }
+          }
+        },
+        "mq-teaser-headline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.mQTeaser.m-qteaser-headline-font-size}",
+            "fontWeight": 900,
+            "lineHeight": "{Component.Teaser.mQTeaser.m-qteaser-headline-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "This component level text style references the semantic level text sizes of headline3 and headline4.\nXS-headline4FontSize:22 // SM-headline4FontSize:22 // MD-headline3FontSize:36 // LG-headline3FontSize:40",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:924c44f4f184ca3f35264d18fae8875aad05c977,",
+              "type": "TEXT"
+            }
+          }
+        }
+      },
+      "qteaser": {
+        "q-teaser-headline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.qTeaser.quad-headline-font-size}",
+            "fontWeight": 900,
+            "lineHeight": "{Component.Teaser.qTeaser.quad-headline-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "This component level text style is used on the quad teaser headline. Its font size parameter references the semantic level variable headline1. 48 - 48 - 72 - 100",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:289f1c2d18295df0ca95acde3b8155be7da32201,",
+              "type": "TEXT"
+            }
+          }
+        }
+      },
+      "stdteaser": {
+        "std-teaser-headline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Headline.headline-4-font-size}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline-4-line-height}",
+            "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+          },
+          "$description": "Standard teasers typography changes more than other teasers. On desktop they have a kicker, a headline and a short text. On mobile devices the short text is eliminated and the headline gains weight at device widths 600px. Then at small mobile sizes the weight drops once again.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:90253f96aef6ea3318d79fa7c06dd5584ffcfebb,",
+              "type": "TEXT"
+            }
+          }
+        }
+      }
+    },
+    "toggleswitch": {
+      "app-toogle-item-label": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.ToggleSwitch.app-toggle-item-label-font-size}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.ToggleSwitch.app-toggle-item-label-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used on labels in list items with toggle switches found in app preferences. 14 - 14 - 16 - 18",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:34e6586fb5a6e83ebaef4f992dc0b57aecf9df3b,",
+            "type": "TEXT"
+          }
+        }
+      }
+    },
+    ".dsdocsstyles": {
+      ".doc-label-bold-resp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component._DSysDocs.doc-label-resp-font-size}",
+          "fontWeight": 700,
+          "lineHeight": "{Component._DSysDocs.label-1-responsive-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0-p-25}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style should be chosen when shorter small identifier texts in a small font size is needed where as the footnote text style should be used for longer descriptive texts. This text style's font size changes across device sizes: 10 - 10 - 15 - 17",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:00170c62a678fe3100587cc8bfe3a2f85694b9ab,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".page-header-description": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 700,
+          "lineHeight": 1.399999976158142,
+          "letterSpacing": "{Semantic.Typography.LetterSpace.letter-spacing-none}"
+        },
+        "$extensions": {
+          "com.figma": {
+            "id": "S:327f3b981b1fb5701e3e73258f5f09004265e301,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".code-snippets": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Source Code Pro"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote-2-font-size}",
+          "fontWeight": 500,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote-2-line-height}",
+          "letterSpacing": "{LetterSpacing.letter-spacing-0}"
+        },
+        "$description": "This text style is only used on the design system's documentation for code syntax snippets.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:3bff1020f0030b62097e658e1182c80ed7761af0,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".bild-design-side-menu": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1
+        },
+        "$description": "This text style is only used for mockup pages of the design system website.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:a7a597994338ea915ee363a075444e06a1cb4c8b,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".bild-design-side-menu-active": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1,
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is only used for mockup pages of the design system website.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:44ed55ebb74ec4f1891513996dce6633d1ca2d31,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".bild-design-side-menu-hover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1
+        },
+        "$description": "This text style is only used for mockup pages of the design system website.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:4f4c6eadb9811f4beada8fd68c9b522f694a3ca1,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".token-spec-l": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Source Code Pro"
+          ],
+          "fontSize": {
+            "value": 24,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": {
+            "value": 32,
+            "unit": "px"
+          }
+        },
+        "$description": "This text style is used on documentation pages that contain some token information.",
+        "$extensions": {
+          "com.figma": {
+            "id": "S:3c8ca07932582bd5ada043d086a04cf7126cb2e9,",
+            "type": "TEXT"
+          }
+        }
+      },
+      ".specs": {
+        ".specs-xs": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 12,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "value": 16,
+              "unit": "px"
+            }
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:38121b663989d2d2a4f901f316fb0ff6f88308b8,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-s": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 20,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": "auto"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:11b789098452103163cac33ad3b37dce7a9f9026,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-ms": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 32,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": "auto"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:8225cce9d0aeccfa4da9186c580858c5016506f0,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-m": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 48,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "value": 64,
+              "unit": "px"
+            }
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:72e37ce98bacd4bbc42e2548b39162a16612f632,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-ml": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": "{size-64}",
+            "fontWeight": 400,
+            "lineHeight": "{size-80}",
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:acf988056f0c9c2a3b88c22ddc8ac77d58add5e3,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-l": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 128,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": 1.149999976158142,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:3ce8d481a01508fde0532ada6ced11ba138120b7,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-xl": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 256,
+              "unit": "px"
+            },
+            "fontWeight": 500,
+            "lineHeight": 1,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:7add6644dd9bd956a40cd8615ad0c0f01dc6be80,",
+              "type": "TEXT"
+            }
+          }
+        },
+        ".specs-xxl": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 512,
+              "unit": "px"
+            },
+            "fontWeight": 500,
+            "lineHeight": 1,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system.",
+          "$extensions": {
+            "com.figma": {
+              "id": "S:3402d26498a72b318b6e07592543f158ea4eff7d,",
+              "type": "TEXT"
+            }
+          }
+        }
+      }
+    }
+  }
+}
