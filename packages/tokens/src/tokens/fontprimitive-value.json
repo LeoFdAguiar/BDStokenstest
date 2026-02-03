@@ -1,0 +1,1163 @@
+{
+  "fontfamily": {
+    "bild": {
+      "font-family-gotham-xnarrow": {
+        "$value": "Gotham XNarrow",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:585:1969",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "font-family-gotham-cond": {
+        "$value": "Gotham Condensed",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1985",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "font-family-gotham": {
+        "$value": "Gotham",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:588:1986",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    },
+    "advertorial": {
+      "font-family-lucida-grande": {
+        "$value": "Lucida Grande",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:17036:23304",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    },
+    "sportbild": {
+      "font-family-antenna-extra-cond": {
+        "$value": "AntennaExtraCond",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18038:10602",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "font-family-antenna-cond": {
+        "$value": "AntennaCond",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18038:10603",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      },
+      "font-family-inter": {
+        "$value": "Inter",
+        "$type": "string",
+        "$extensions": {
+          "com.figma": {
+            "id": "VariableID:18056:4790",
+            "variableCollectionId": "VariableCollectionId:470:1450",
+            "scopes": [],
+            "hiddenFromPublishing": true,
+            "resolvedType": "STRING"
+          }
+        }
+      }
+    }
+  },
+  "fontweight": {
+    "font-weight-bold": {
+      "$value": 700,
+      "$type": "dimension",
+      "$description": "700 is considered black weight because Gotham Condensed is the primary font family (most used in headlines). In other font families 700 is not black weight but bold.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:588:1987",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-extra-black": {
+      "$value": 900,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:588:1988",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-book": {
+      "$value": 400,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:634:877",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-ultra": {
+      "$value": 1000,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:982:2356",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-black": {
+      "$value": 800,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:1045:2748",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-book-350": {
+      "$value": 350,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:1259:9",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-semi-bold": {
+      "$value": 600,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4197:5113",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-thin": {
+      "$value": 100,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3023",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-light": {
+      "$value": 300,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3024",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-extra-light": {
+      "$value": 200,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3025",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-weight-medium": {
+      "$value": 500,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:4914:3026",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  },
+  "letterspacing": {
+    "letter-spacing-neg-0-p-25": {
+      "$value": -0.25,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a subtle small letter spacing value of -0.25.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32557",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-0": {
+      "$value": 0,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a default letter spacing value of 0.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32558",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-1": {
+      "$value": 1,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a positive letter spacing value of 1.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32559",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-0-p-5": {
+      "$value": 0.5,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a slight positive letter spacing value of 0.5.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32560",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-0-p-25": {
+      "$value": 0.25,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a subtle positive letter spacing value of 0.25.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32561",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-neg-0-p-5": {
+      "$value": -0.5,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a subtle negative letter spacing value of -0.5.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32562",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-2": {
+      "$value": 2,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large letter spacing value of 2.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32563",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-neg-1": {
+      "$value": -1,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a negative letter spacing value of -1.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32564",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-neg-2": {
+      "$value": -2,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large negative letter spacing value of -2. This is usually reserved for large texts styles that are used on titles or headlines.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32565",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-3": {
+      "$value": 3,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a much larger letter spacing value of 3. Text styles that have smaller font sizes should use increasingly positive values for their letter spacings on smaller device sizes.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32922",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "letter-spacing-neg-3": {
+      "$value": -3,
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic text styles that need to use a large negative letter spacing value of -3. Text styles that have larger font sizes should use increasingly negative values for their letter spacings on larger device sizes.",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:16630:32923",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  },
+  "fontweightstring": {
+    "st-font-weight-ultra": {
+      "$value": "1000",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5779",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-extra-black": {
+      "$value": "900",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5780",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-black": {
+      "$value": "800",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5781",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-bold": {
+      "$value": "700",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5782",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-semi-bold": {
+      "$value": "600",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5783",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-medium": {
+      "$value": "500",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5784",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-st-book": {
+      "$value": "400",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5785",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-book-350": {
+      "$value": "350",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5786",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-extra-light": {
+      "$value": "200",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5787",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-thin": {
+      "$value": "100",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5788",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-bold-italic": {
+      "$value": "BoldItalic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:18275:5789",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-black-italic": {
+      "$value": "BlackItalic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:19144:63647",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-st-book-italic": {
+      "$value": "BookItalic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:21897:301632",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    },
+    "st-font-weight-light-italic-st": {
+      "$value": "LightItalic",
+      "$type": "string",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:21898:301643",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "STRING"
+        }
+      }
+    }
+  },
+  "fontsize": {
+    "font-size-10": {
+      "$value": 10,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:35",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-12": {
+      "$value": 12,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:36",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-14": {
+      "$value": 14,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:37",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-16": {
+      "$value": 16,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:38",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-18": {
+      "$value": 18,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:39",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-20": {
+      "$value": 20,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:40",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-22": {
+      "$value": 22,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:41",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-24": {
+      "$value": 24,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:42",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-28": {
+      "$value": 28,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:44",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-30": {
+      "$value": 30,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:45",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-32": {
+      "$value": 32,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:46",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-36": {
+      "$value": 36,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:48",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-40": {
+      "$value": 40,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:50",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-42": {
+      "$value": 42,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:51",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-48": {
+      "$value": 48,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:53",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-64": {
+      "$value": 64,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:58",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-72": {
+      "$value": 72,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:61",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-80": {
+      "$value": 80,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:62",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-100": {
+      "$value": 100,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:63",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-120": {
+      "$value": 120,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:66",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-21": {
+      "$value": 21,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:67",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "font-size-26": {
+      "$value": 26,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22354:68",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  },
+  "lineheight": {
+    "line-height-10": {
+      "$value": 10,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12931",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-12": {
+      "$value": 12,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12932",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-14": {
+      "$value": 14,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12933",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-16": {
+      "$value": 16,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12934",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-18": {
+      "$value": 18,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12935",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-20": {
+      "$value": 20,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12936",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-21": {
+      "$value": 21,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12937",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-22": {
+      "$value": 22,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12938",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-24": {
+      "$value": 24,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12939",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-26": {
+      "$value": 26,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12940",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-28": {
+      "$value": 28,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12941",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-30": {
+      "$value": 30,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12942",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-32": {
+      "$value": 32,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12943",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-36": {
+      "$value": 36,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12944",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-40": {
+      "$value": 40,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12945",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-42": {
+      "$value": 42,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12946",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-48": {
+      "$value": 48,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12947",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-64": {
+      "$value": 64,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12948",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-72": {
+      "$value": 72,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12949",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-80": {
+      "$value": 80,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12950",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-100": {
+      "$value": 100,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12951",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    },
+    "line-height-120": {
+      "$value": 120,
+      "$type": "dimension",
+      "$extensions": {
+        "com.figma": {
+          "id": "VariableID:22459:12952",
+          "variableCollectionId": "VariableCollectionId:470:1450",
+          "scopes": [],
+          "hiddenFromPublishing": true,
+          "resolvedType": "FLOAT"
+        }
+      }
+    }
+  }
+}
