@@ -1,5 +1,10 @@
 {
   "devDependencies": {
     "chromatic": "^15.1.0"
+  },
+  {
+    "name": "foo",
+    "scripts": {},
+    ...
   }
 }
